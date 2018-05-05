@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: a485a77f5e8704b0399d3ed42165efe5
+timeCreated: 1525170192
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: group
+    100002: group1
+    100004: group2
+    100006: //RootNode
+    100008: pasted__group
+    100010: pasted__group 1
+    100012: pasted__pasted__pCube24
+    100014: pasted__pasted__pCube24 1
+    100016: pasted__pasted__pCube25
+    100018: pasted__pasted__pCube25 1
+    100020: pasted__pasted__pCube26
+    100022: pasted__pasted__pCube26 1
+    100024: pasted__pasted__pCube27
+    100026: pasted__pasted__pCube27 1
+    100028: pasted__pasted__pCube28
+    100030: pasted__pasted__pCube28 1
+    100032: pasted__pasted__pCylinder10
+    100034: pasted__pasted__pCylinder10 1
+    100036: pasted__pasted__pCylinder14
+    100038: pasted__pasted__pCylinder14 1
+    100040: pasted__pasted__pCylinder15
+    100042: pasted__pasted__pCylinder15 1
+    100044: pasted__pasted__pCylinder16
+    100046: pasted__pasted__pCylinder16 1
+    100048: pasted__pasted__pCylinder17
+    100050: pasted__pasted__pCylinder17 1
+    100052: pasted__pasted__pCylinder18
+    100054: pasted__pasted__pCylinder18 1
+    100056: pasted__pasted__pCylinder19
+    100058: pasted__pasted__pCylinder19 1
+    100060: pasted__pasted__pCylinder20
+    100062: pasted__pasted__pCylinder20 1
+    100064: pasted__pasted__pCylinder21
+    100066: pasted__pasted__pCylinder21 1
+    100068: pasted__pasted__pCylinder22
+    100070: pasted__pasted__pCylinder22 1
+    100072: pasted__pasted__pCylinder23
+    100074: pasted__pasted__pCylinder23 1
+    100076: pasted__pasted__polySurface1
+    100078: pasted__pasted__polySurface1 1
+    100080: pasted__pasted__polySurface10
+    100082: pasted__pasted__polySurface10 1
+    100084: pasted__pasted__polySurface11
+    100086: pasted__pasted__polySurface11 1
+    100088: pasted__pasted__polySurface2
+    100090: pasted__pasted__polySurface2 1
+    100092: pasted__pasted__polySurface3
+    100094: pasted__pasted__polySurface3 1
+    100096: pasted__pasted__polySurface4
+    100098: pasted__pasted__polySurface4 1
+    100100: pasted__pasted__polySurface6
+    100102: pasted__pasted__polySurface6 1
+    100104: pasted__pasted__polySurface6 2
+    100106: pasted__pasted__polySurface6 3
+    100108: pasted__pasted__polySurface8
+    100110: pasted__pasted__polySurface8 1
+    100112: pasted__pasted__polySurface9
+    100114: pasted__pasted__polySurface9 1
+    100116: pasted__pasted__pTorus1
+    100118: pasted__pasted__pTorus1 1
+    100120: pasted__pasted__transform10
+    100122: pasted__pasted__transform10 1
+    100124: pasted__pasted__transform11
+    100126: pasted__pasted__transform11 1
+    100128: pasted__pasted__transform12
+    100130: pasted__pasted__transform12 1
+    100132: pasted__pasted__transform13
+    100134: pasted__pasted__transform13 1
+    100136: pasted__pasted__transform14
+    100138: pasted__pasted__transform14 1
+    100140: pasted__pasted__transform15
+    100142: pasted__pasted__transform15 1
+    100144: pasted__pasted__transform16
+    100146: pasted__pasted__transform16 1
+    100148: pasted__pasted__transform17
+    100150: pasted__pasted__transform17 1
+    100152: pasted__pasted__transform18
+    100154: pasted__pasted__transform18 1
+    100156: pasted__pasted__transform19
+    100158: pasted__pasted__transform19 1
+    100160: pasted__pasted__transform20
+    100162: pasted__pasted__transform20 1
+    100164: pasted__pasted__transform21
+    100166: pasted__pasted__transform21 1
+    100168: pasted__pasted__transform22
+    100170: pasted__pasted__transform22 1
+    100172: pasted__pasted__transform23
+    100174: pasted__pasted__transform23 1
+    100176: pasted__pasted__transform24
+    100178: pasted__pasted__transform24 1
+    100180: pasted__pasted__transform25
+    100182: pasted__pasted__transform25 1
+    100184: pasted__pasted__transform26
+    100186: pasted__pasted__transform26 1
+    100188: pasted__pasted__transform27
+    100190: pasted__pasted__transform27 1
+    100192: pasted__pasted__transform28
+    100194: pasted__pasted__transform28 1
+    100196: pasted__pasted__transform29
+    100198: pasted__pasted__transform29 1
+    100200: pasted__pasted__transform30
+    100202: pasted__pasted__transform30 1
+    100204: pasted__pasted__transform5
+    100206: pasted__pasted__transform5 1
+    100208: pasted__pasted__transform6
+    100210: pasted__pasted__transform6 1
+    100212: pasted__pasted__transform7
+    100214: pasted__pasted__transform7 1
+    100216: pasted__pasted__transform8
+    100218: pasted__pasted__transform8 1
+    100220: pasted__pasted__transform9
+    100222: pasted__pasted__transform9 1
+    100224: pasted__pCube24
+    100226: pasted__pCube25
+    100228: pasted__pCube26
+    100230: pasted__pCube27
+    100232: pasted__pCube28
+    100234: pasted__pCylinder10
+    100236: pasted__pCylinder14
+    100238: pasted__pCylinder15
+    100240: pasted__pCylinder16
+    100242: pasted__pCylinder17
+    100244: pasted__pCylinder18
+    100246: pasted__pCylinder19
+    100248: pasted__pCylinder20
+    100250: pasted__pCylinder21
+    100252: pasted__pCylinder22
+    100254: pasted__pCylinder23
+    100256: pasted__polySurface1
+    100258: pasted__polySurface10
+    100260: pasted__polySurface11
+    100262: pasted__polySurface2
+    100264: pasted__polySurface3
+    100266: pasted__polySurface4
+    100268: pasted__polySurface4 1
+    100270: pasted__polySurface6
+    100272: pasted__polySurface6 1
+    100274: pasted__polySurface6 2
+    100276: pasted__polySurface8
+    100278: pasted__polySurface9
+    100280: pasted__pTorus1
+    100282: pasted__transform1
+    100284: pasted__transform1 1
+    100286: pasted__transform10
+    100288: pasted__transform11
+    100290: pasted__transform12
+    100292: pasted__transform13
+    100294: pasted__transform14
+    100296: pasted__transform15
+    100298: pasted__transform16
+    100300: pasted__transform17
+    100302: pasted__transform18
+    100304: pasted__transform19
+    100306: pasted__transform20
+    100308: pasted__transform21
+    100310: pasted__transform22
+    100312: pasted__transform23
+    100314: pasted__transform24
+    100316: pasted__transform25
+    100318: pasted__transform26
+    100320: pasted__transform27
+    100322: pasted__transform28
+    100324: pasted__transform29
+    100326: pasted__transform30
+    100328: pasted__transform5
+    100330: pasted__transform6
+    100332: pasted__transform7
+    100334: pasted__transform8
+    100336: pasted__transform9
+    100338: pCube1
+    100340: pCube2
+    100342: pCube3
+    100344: pCylinder1
+    100346: pCylinder2
+    100348: pCylinder3
+    100350: pCylinder4
+    100352: polySurface1
+    100354: polySurface1 1
+    100356: polySurface10
+    100358: polySurface11
+    100360: polySurface12
+    100362: polySurface13
+    100364: polySurface14
+    100366: polySurface15
+    100368: polySurface16
+    100370: polySurface17
+    100372: polySurface18
+    100374: polySurface2
+    100376: polySurface3
+    100378: polySurface4
+    100380: polySurface5
+    100382: polySurface6
+    100384: polySurface7
+    100386: polySurface8
+    100388: polySurface9
+    100390: polySurface9 1
+    100392: pSphere1
+    100394: pSphere2
+    100396: pSphere3
+    100398: transform1
+    100400: transform10
+    100402: transform11
+    100404: transform12
+    100406: transform13
+    100408: transform14
+    100410: transform15
+    100412: transform16
+    100414: transform17
+    100416: transform18
+    100418: transform19
+    100420: transform2
+    100422: transform20
+    100424: transform21
+    100426: transform22
+    100428: transform23
+    100430: transform24
+    100432: transform25
+    100434: transform26
+    100436: transform27
+    100438: transform28
+    100440: transform29
+    100442: transform3
+    100444: transform30
+    100446: transform31
+    100448: transform32
+    100450: transform4
+    100452: transform5
+    100454: transform6
+    100456: transform7
+    100458: transform8
+    100460: transform9
+    400000: group
+    400002: group1
+    400004: group2
+    400006: //RootNode
+    400008: pasted__group
+    400010: pasted__group 1
+    400012: pasted__pasted__pCube24
+    400014: pasted__pasted__pCube24 1
+    400016: pasted__pasted__pCube25
+    400018: pasted__pasted__pCube25 1
+    400020: pasted__pasted__pCube26
+    400022: pasted__pasted__pCube26 1
+    400024: pasted__pasted__pCube27
+    400026: pasted__pasted__pCube27 1
+    400028: pasted__pasted__pCube28
+    400030: pasted__pasted__pCube28 1
+    400032: pasted__pasted__pCylinder10
+    400034: pasted__pasted__pCylinder10 1
+    400036: pasted__pasted__pCylinder14
+    400038: pasted__pasted__pCylinder14 1
+    400040: pasted__pasted__pCylinder15
+    400042: pasted__pasted__pCylinder15 1
+    400044: pasted__pasted__pCylinder16
+    400046: pasted__pasted__pCylinder16 1
+    400048: pasted__pasted__pCylinder17
+    400050: pasted__pasted__pCylinder17 1
+    400052: pasted__pasted__pCylinder18
+    400054: pasted__pasted__pCylinder18 1
+    400056: pasted__pasted__pCylinder19
+    400058: pasted__pasted__pCylinder19 1
+    400060: pasted__pasted__pCylinder20
+    400062: pasted__pasted__pCylinder20 1
+    400064: pasted__pasted__pCylinder21
+    400066: pasted__pasted__pCylinder21 1
+    400068: pasted__pasted__pCylinder22
+    400070: pasted__pasted__pCylinder22 1
+    400072: pasted__pasted__pCylinder23
+    400074: pasted__pasted__pCylinder23 1
+    400076: pasted__pasted__polySurface1
+    400078: pasted__pasted__polySurface1 1
+    400080: pasted__pasted__polySurface10
+    400082: pasted__pasted__polySurface10 1
+    400084: pasted__pasted__polySurface11
+    400086: pasted__pasted__polySurface11 1
+    400088: pasted__pasted__polySurface2
+    400090: pasted__pasted__polySurface2 1
+    400092: pasted__pasted__polySurface3
+    400094: pasted__pasted__polySurface3 1
+    400096: pasted__pasted__polySurface4
+    400098: pasted__pasted__polySurface4 1
+    400100: pasted__pasted__polySurface6
+    400102: pasted__pasted__polySurface6 1
+    400104: pasted__pasted__polySurface6 2
+    400106: pasted__pasted__polySurface6 3
+    400108: pasted__pasted__polySurface8
+    400110: pasted__pasted__polySurface8 1
+    400112: pasted__pasted__polySurface9
+    400114: pasted__pasted__polySurface9 1
+    400116: pasted__pasted__pTorus1
+    400118: pasted__pasted__pTorus1 1
+    400120: pasted__pasted__transform10
+    400122: pasted__pasted__transform10 1
+    400124: pasted__pasted__transform11
+    400126: pasted__pasted__transform11 1
+    400128: pasted__pasted__transform12
+    400130: pasted__pasted__transform12 1
+    400132: pasted__pasted__transform13
+    400134: pasted__pasted__transform13 1
+    400136: pasted__pasted__transform14
+    400138: pasted__pasted__transform14 1
+    400140: pasted__pasted__transform15
+    400142: pasted__pasted__transform15 1
+    400144: pasted__pasted__transform16
+    400146: pasted__pasted__transform16 1
+    400148: pasted__pasted__transform17
+    400150: pasted__pasted__transform17 1
+    400152: pasted__pasted__transform18
+    400154: pasted__pasted__transform18 1
+    400156: pasted__pasted__transform19
+    400158: pasted__pasted__transform19 1
+    400160: pasted__pasted__transform20
+    400162: pasted__pasted__transform20 1
+    400164: pasted__pasted__transform21
+    400166: pasted__pasted__transform21 1
+    400168: pasted__pasted__transform22
+    400170: pasted__pasted__transform22 1
+    400172: pasted__pasted__transform23
+    400174: pasted__pasted__transform23 1
+    400176: pasted__pasted__transform24
+    400178: pasted__pasted__transform24 1
+    400180: pasted__pasted__transform25
+    400182: pasted__pasted__transform25 1
+    400184: pasted__pasted__transform26
+    400186: pasted__pasted__transform26 1
+    400188: pasted__pasted__transform27
+    400190: pasted__pasted__transform27 1
+    400192: pasted__pasted__transform28
+    400194: pasted__pasted__transform28 1
+    400196: pasted__pasted__transform29
+    400198: pasted__pasted__transform29 1
+    400200: pasted__pasted__transform30
+    400202: pasted__pasted__transform30 1
+    400204: pasted__pasted__transform5
+    400206: pasted__pasted__transform5 1
+    400208: pasted__pasted__transform6
+    400210: pasted__pasted__transform6 1
+    400212: pasted__pasted__transform7
+    400214: pasted__pasted__transform7 1
+    400216: pasted__pasted__transform8
+    400218: pasted__pasted__transform8 1
+    400220: pasted__pasted__transform9
+    400222: pasted__pasted__transform9 1
+    400224: pasted__pCube24
+    400226: pasted__pCube25
+    400228: pasted__pCube26
+    400230: pasted__pCube27
+    400232: pasted__pCube28
+    400234: pasted__pCylinder10
+    400236: pasted__pCylinder14
+    400238: pasted__pCylinder15
+    400240: pasted__pCylinder16
+    400242: pasted__pCylinder17
+    400244: pasted__pCylinder18
+    400246: pasted__pCylinder19
+    400248: pasted__pCylinder20
+    400250: pasted__pCylinder21
+    400252: pasted__pCylinder22
+    400254: pasted__pCylinder23
+    400256: pasted__polySurface1
+    400258: pasted__polySurface10
+    400260: pasted__polySurface11
+    400262: pasted__polySurface2
+    400264: pasted__polySurface3
+    400266: pasted__polySurface4
+    400268: pasted__polySurface4 1
+    400270: pasted__polySurface6
+    400272: pasted__polySurface6 1
+    400274: pasted__polySurface6 2
+    400276: pasted__polySurface8
+    400278: pasted__polySurface9
+    400280: pasted__pTorus1
+    400282: pasted__transform1
+    400284: pasted__transform1 1
+    400286: pasted__transform10
+    400288: pasted__transform11
+    400290: pasted__transform12
+    400292: pasted__transform13
+    400294: pasted__transform14
+    400296: pasted__transform15
+    400298: pasted__transform16
+    400300: pasted__transform17
+    400302: pasted__transform18
+    400304: pasted__transform19
+    400306: pasted__transform20
+    400308: pasted__transform21
+    400310: pasted__transform22
+    400312: pasted__transform23
+    400314: pasted__transform24
+    400316: pasted__transform25
+    400318: pasted__transform26
+    400320: pasted__transform27
+    400322: pasted__transform28
+    400324: pasted__transform29
+    400326: pasted__transform30
+    400328: pasted__transform5
+    400330: pasted__transform6
+    400332: pasted__transform7
+    400334: pasted__transform8
+    400336: pasted__transform9
+    400338: pCube1
+    400340: pCube2
+    400342: pCube3
+    400344: pCylinder1
+    400346: pCylinder2
+    400348: pCylinder3
+    400350: pCylinder4
+    400352: polySurface1
+    400354: polySurface1 1
+    400356: polySurface10
+    400358: polySurface11
+    400360: polySurface12
+    400362: polySurface13
+    400364: polySurface14
+    400366: polySurface15
+    400368: polySurface16
+    400370: polySurface17
+    400372: polySurface18
+    400374: polySurface2
+    400376: polySurface3
+    400378: polySurface4
+    400380: polySurface5
+    400382: polySurface6
+    400384: polySurface7
+    400386: polySurface8
+    400388: polySurface9
+    400390: polySurface9 1
+    400392: pSphere1
+    400394: pSphere2
+    400396: pSphere3
+    400398: transform1
+    400400: transform10
+    400402: transform11
+    400404: transform12
+    400406: transform13
+    400408: transform14
+    400410: transform15
+    400412: transform16
+    400414: transform17
+    400416: transform18
+    400418: transform19
+    400420: transform2
+    400422: transform20
+    400424: transform21
+    400426: transform22
+    400428: transform23
+    400430: transform24
+    400432: transform25
+    400434: transform26
+    400436: transform27
+    400438: transform28
+    400440: transform29
+    400442: transform3
+    400444: transform30
+    400446: transform31
+    400448: transform32
+    400450: transform4
+    400452: transform5
+    400454: transform6
+    400456: transform7
+    400458: transform8
+    400460: transform9
+    2100000: lambert1
+    2100002: lambert5
+    2100004: anisotropic5
+    2100006: anisotropic3
+    2100008: anisotropic1
+    2100010: anisotropic2
+    2100012: lambert6
+    2100014: anisotropic4
+    2300000: pCube3
+    3300000: pCube3
+    4300000: pCube3
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
