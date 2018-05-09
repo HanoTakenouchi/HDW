@@ -1,0 +1,41 @@
+newmtl incubator
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1800 0.1800 0.1800
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\UnityAssets\Sci-Fi Environment\Export\Incubator\MaxBakes\Incubator\previewer\_Incubator__d.tga
+	map_Kd D:\UnityAssets\Sci-Fi Environment\Export\Incubator\MaxBakes\Incubator\previewer\_Incubator__d.tga
+	map_bump Map__37_Normal_Bump.tga
+
+newmtl Glass
+	Ns 10.0000
+	Ni 1.5000
+	d 0.2000
+	Tr 0.8000
+	Tf 0.2000 0.2000 0.2000 
+	illum 2
+	Ka 0.0706 0.5882 0.0000
+	Kd 0.0706 0.5882 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__2696
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.1800 0.1800 0.1800
+	Ke 0.0000 0.0000 0.0000
+	map_Ka D:\UnityAssets\Sci-Fi Environment\Export\Plants\MaxBakes\Plants\previewer\_Plants_001_d.tga
+	map_Kd D:\UnityAssets\Sci-Fi Environment\Export\Plants\MaxBakes\Plants\previewer\_Plants_001_d.tga
+	map_bump Map__70_Normal_Bump.tga
