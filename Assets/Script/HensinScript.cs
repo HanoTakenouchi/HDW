@@ -15,6 +15,8 @@ public class HensinScript : MonoBehaviour
 
 	public GameObject Camera;
 
+	public GameObject Robo;
+
 
 	// Use this for initialization
 	void Start()
@@ -52,6 +54,8 @@ public class HensinScript : MonoBehaviour
 					isdenkiman = (false);
 					Destroy(copydenkiman);
 					gameObject.GetComponent<TransformScript>().enabled = true;
+					Camera.transform.parent = null;
+					Camera.transform.SetParent(Robo.transform);
 				}
 			}
 		}
