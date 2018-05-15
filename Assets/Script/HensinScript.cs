@@ -37,23 +37,19 @@ public class HensinScript : MonoBehaviour
 			if (collider.gameObject.tag == "point")
 			{
 				if (isdenkiman == false)
-					//電気マンに変身するとき 
 				{
 					copydenkiman = Instantiate(prehabdenkiman, muzzle2.position, transform.rotation) as GameObject;
 					isdenkiman = true;
 					gameObject.GetComponent<TransformScript>().enabled = false;
 					copydenkiman.GetComponent<DenkimanScript>().genzaichi = collider.gameObject.GetComponent<PointScript>();
 					Debug.Log("kireru");
-					Camera.transform.parent = null;
 					Camera.transform.SetParent(copydenkiman.transform);
 				}else{
 					if (copydenkiman.GetComponent<DenkimanScript>().genzaichi.gameObject == collider.gameObject)
-					//電気マンから普通に戻るとき 
 					{
 						isdenkiman = (false);
 						Destroy(copydenkiman);
 						gameObject.GetComponent<TransformScript>().enabled = true;
-						Camera.transform.parent = null;
 						Camera.transform.SetParent(Robo.transform);
 					}
 				}
