@@ -25,8 +25,10 @@ public class Point4Script : MonoBehaviour {
     {
         if (collider.gameObject.tag == "denkiman")
         {
+			Debug.Log("1");
 			if (Input.GetKeyUp(KeyCode.L))
             {
+				Debug.Log("2");
                 Doramukan.GetComponent<Rigidbody>().useGravity = true;
 
             }
