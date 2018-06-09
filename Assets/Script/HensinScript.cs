@@ -19,7 +19,7 @@ public class HensinScript : MonoBehaviour
 
 	bool isPoint = true;
 	//public Collider collider;
-
+    
 	public GameObject MainCam;
 
 	public GameObject SubCam;
@@ -36,18 +36,8 @@ public class HensinScript : MonoBehaviour
 	void Update()
 	{
 	}
-
-	//private void OnTriggerEnter(Collider collider)
-	//{
-	//	this.collider = collider;
-	//}
-
-	//private void OnTriggerExit(Collider collider)
-	//{
-	//	this.collider = null;
-	//}
     
-	private void OnTriggerEnter(Collider col)
+	private void OnTriggerStay(Collider col)
 	{
 		//Debug.Log(col.gameObject.tag);
 		if (Input.GetKeyDown(KeyCode.P) && col.gameObject.tag == "point")

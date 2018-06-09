@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 public class TransformScript : MonoBehaviour {
-    float speed = 5.0f;
+    float speed = 8.0f;
 	public GameObject robo;
 	//float step;
 	// Use this for initialization
