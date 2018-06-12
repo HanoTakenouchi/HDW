@@ -1,6 +1,7 @@
-﻿//using System.Collections;
-//using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class DenkimanScript : MonoBehaviour
 {
@@ -16,11 +17,11 @@ public class DenkimanScript : MonoBehaviour
     void Update()
     {
         {
-            if (Input.GetKeyUp("up"))
+			if (Input.GetKeyDown("up"))
             {
                 if (genzaichi.up != null)
                 {
-                    transform.position = genzaichi.up.transform.position;
+					transform.DOMove(genzaichi.up.transform.position,1);
                     genzaichi = genzaichi.up.GetComponent<PointScript>();
                 }
             }
@@ -29,7 +30,7 @@ public class DenkimanScript : MonoBehaviour
             {
                 if (genzaichi.down != null)
                  {
-                    transform.position = genzaichi.down.transform.position;
+					transform.DOMove(genzaichi.down.transform.position, 1);
                     genzaichi = genzaichi.down.GetComponent<PointScript>();
                  }
              }
@@ -38,7 +39,7 @@ public class DenkimanScript : MonoBehaviour
              {
                 if (genzaichi.left != null)
                 {
-                    transform.position = genzaichi.left.transform.position;
+					transform.DOMove(genzaichi.left.transform.position, 1);
                     genzaichi = genzaichi.left.GetComponent<PointScript>();
                 }
             }
@@ -47,7 +48,7 @@ public class DenkimanScript : MonoBehaviour
             {
                 if (genzaichi.right != null)
                 {
-                    transform.position = genzaichi.right.transform.position;
+					transform.DOMove(genzaichi.right.transform.position, 1);
                     genzaichi = genzaichi.right.GetComponent<PointScript>();
                 }
             }

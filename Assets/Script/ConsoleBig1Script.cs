@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class ConsoleBig1Script : MonoBehaviour
 {
-	public GameObject CanvasPart1;
+	public GameObject Canvas1;
 	private int Counter = 0;
-
+    
 	// Use this for initialization
 	void Start()
 	{
@@ -24,18 +24,19 @@ public class ConsoleBig1Script : MonoBehaviour
 	{
 		if (collider.gameObject.tag == "Player")
 		{
-		    if (Input.GetKeyDown(KeyCode.L))
-		    {
-		    	CanvasPart1.SetActive(true);
-				Debug.Log("kiteru1");
-		    	Counter++;
-		    }
-			if (Counter == 1)
+			if (Input.GetKey(KeyCode.L))
 			{
-				if (Input.GetKeyDown(KeyCode.L))
+				Canvas1.SetActive(true);
+				Debug.Log("kiteru1");
+				Counter++;
+
+				if (Counter == 1)
 				{
-					CanvasPart1.SetActive(false);
-					Counter--;
+					if (Input.GetKey(KeyCode.L))
+					{
+						Canvas1.SetActive(false);
+						Counter--;
+					}
 				}
 			}
 		}
