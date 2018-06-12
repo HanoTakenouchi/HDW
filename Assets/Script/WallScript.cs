@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WallScript : MonoBehaviour
+public class 
+WallScript : MonoBehaviour
 {
     public GameObject wall;
-    bool flag = false;
+    public bool flag = false;
     // Use this for initialization
     void Start()
     {
@@ -16,7 +17,7 @@ public class WallScript : MonoBehaviour
         {
             if (flag)
             {
-			wall.gameObject.transform.position = Vector3.Lerp(wall.gameObject.transform.position, new Vector3(-1.77f, -1.4963f, 9.973543f), Time.deltaTime);
+			wall.gameObject.transform.position = Vector3.Lerp(wall.gameObject.transform.position, new Vector3(13.38f, -8.63f, 7.69f), Time.deltaTime);
             }
         }
 
@@ -24,7 +25,7 @@ public class WallScript : MonoBehaviour
         {
             if (collider.gameObject.tag == "denkiman")
             {
-                if (Input.GetKeyUp(KeyCode.L)) 
+                if (Input.GetKeyDown(KeyCode.L)) 
 			    {
                     flag = true;
                 }

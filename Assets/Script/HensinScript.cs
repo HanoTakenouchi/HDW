@@ -19,7 +19,7 @@ public class HensinScript : MonoBehaviour
 
 	bool isPoint = true;
 	//public Collider collider;
-    
+
 	public GameObject MainCam;
 
 	public GameObject SubCam;
@@ -35,8 +35,23 @@ public class HensinScript : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
+		if (Input.GetKey(KeyCode.O))
+        {
+            Debug.Log("kireru1");
+            //if (copydenkiman.GetComponent<DenkimanScript>().genzaichi.gameObject == col.gameObject)
+            //{
+            //Debug.Log("kireru2");
+            isdenkiman = (false);
+            Debug.Log("1");
+            Destroy(copydenkiman);
+            Debug.Log("2");
+            gameObject.GetComponent<TransformScript>().enabled = true;
+            MainCam.SetActive(true);
+            SubCam.SetActive(false);
+            Camera.transform.SetParent(Robo.transform);
+        }
 	}
-    
+
 	private void OnTriggerStay(Collider col)
 	{
 		//Debug.Log(col.gameObject.tag);
@@ -44,31 +59,18 @@ public class HensinScript : MonoBehaviour
 		{
 			Debug.Log("change");
 			isPoint = false;
-				if (isdenkiman == false)
-				{
-					copydenkiman = Instantiate(prehabdenkiman, muzzle2.position, transform.rotation) as GameObject;
-					isdenkiman = true;
-					gameObject.GetComponent<TransformScript>().enabled = false;
-				    copydenkiman.GetComponent<DenkimanScript>().genzaichi = col.gameObject.GetComponent<PointScript>();
-				    MainCam.SetActive(false);
-				    SubCam.SetActive(true);
-					Debug.Log("kiteru");
-					//Camera.transform.SetParent(copydenkiman.transform);
-				}
-				else
-				{
-					Debug.Log("kireru1");
-				if (copydenkiman.GetComponent<DenkimanScript>().genzaichi.gameObject == col.gameObject)
-					{
-						Debug.Log("kireru2");
-						isdenkiman = (false);
-						Destroy(copydenkiman);
-						gameObject.GetComponent<TransformScript>().enabled = true;
-					    MainCam.SetActive(true);
-					    SubCam.SetActive(false);
-						//Camera.transform.SetParent(Robo.transform);
-					}
-				}
+			if (isdenkiman == false)
+			{
+				copydenkiman = Instantiate(prehabdenkiman, muzzle2.position, transform.rotation) as GameObject;
+				isdenkiman = true;
+				gameObject.GetComponent<TransformScript>().enabled = false;
+				copydenkiman.GetComponent<DenkimanScript>().genzaichi = col.gameObject.GetComponent<PointScript>();
+				MainCam.SetActive(false);
+				SubCam.SetActive(true);
+				Debug.Log("kiteru");
+				//Camera.transform.SetParent(copydenkiman.transform);
 			}
 		}
 	}
+}
+

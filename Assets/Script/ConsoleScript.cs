@@ -19,7 +19,7 @@ public class ConsoleScript : MonoBehaviour
 	{
 		if (flag)
 		{
-			door.gameObject.transform.position = Vector3.Lerp(door.gameObject.transform.position, new Vector3(-2.9f, -1.4963f, -19.2f), Time.deltaTime);
+			door.gameObject.transform.position = Vector3.Lerp(door.gameObject.transform.position, new Vector3(1.3f, -1.3963f, -54.66354f), Time.deltaTime);
 		}
 	}
 
