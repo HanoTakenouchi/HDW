@@ -5,13 +5,15 @@ using UnityEngine.UI;
 
 public class ConsoleBig1Script : MonoBehaviour
 {
-	public GameObject Canvas1;
+	public Canvas Canvas1;
 	private int Counter = 0;
     
 	// Use this for initialization
 	void Start()
 	{
-		
+		Debug.Log("kiteru");
+		Canvas1.gameObject.SetActive(false);
+		Debug.Log("kiteru1");
 	}
 
 	// Update is called once per frame
@@ -24,19 +26,19 @@ public class ConsoleBig1Script : MonoBehaviour
 	{
 		if (collider.gameObject.tag == "Player")
 		{
-			if (Input.GetKey(KeyCode.L))
+			if (Input.GetKeyDown(KeyCode.L))
 			{
-				Canvas1.SetActive(true);
-				Debug.Log("kiteru1");
-				Counter++;
-
-				if (Counter == 1)
+				if (Counter == 0)
 				{
-					if (Input.GetKey(KeyCode.L))
-					{
-						Canvas1.SetActive(false);
-						Counter--;
-					}
+					Canvas1.gameObject.SetActive(true);
+					Debug.Log("kiteru2");
+					Counter++;
+				}
+
+				else if (Counter == 1)
+				{
+					Canvas1.gameObject.SetActive(false);
+					Counter--;
 				}
 			}
 		}
