@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
 
-public class HuyoHuyoScript : MonoBehaviour {
+public class MAPScript : MonoBehaviour {
 
 	public GameObject MAP;
 	Animation MAPAnimation;
