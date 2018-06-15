@@ -5,15 +5,16 @@ using UnityEngine.UI;
 
 public class ConsoleBig1Script : MonoBehaviour
 {
+	private GameObject CanvasObject;
 	public Canvas Canvas1;
 	private int Counter = 0;
     
 	// Use this for initialization
 	void Start()
 	{
+		CanvasObject = GameObject.Find("Canvas1");
 		Debug.Log("kiteru");
 		Canvas1.gameObject.SetActive(false);
-		Debug.Log("kiteru1");
 	}
 
 	// Update is called once per frame
@@ -30,7 +31,7 @@ public class ConsoleBig1Script : MonoBehaviour
 			{
 				if (Counter == 0)
 				{
-					Canvas1.gameObject.SetActive(true);
+					CanvasObject.gameObject.SetActive(true);
 					Debug.Log("kiteru2");
 					Counter++;
 				}

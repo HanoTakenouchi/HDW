@@ -24,12 +24,15 @@ public class HensinScript : MonoBehaviour
 
 	public GameObject SubCam;
 
+	public GameObject ZZZ;
+
+	public GameObject eye;
+
 
 	// Use this for initialization
 	void Start()
 	{
 		isdenkiman = false;
-		//SubCam.SetActive(false);
 	}
 
 	// Update is called once per frame
@@ -38,9 +41,6 @@ public class HensinScript : MonoBehaviour
 		if (Input.GetKey(KeyCode.O))
         {
             Debug.Log("kireru1");
-            //if (copydenkiman.GetComponent<DenkimanScript>().genzaichi.gameObject == col.gameObject)
-            //{
-            //Debug.Log("kireru2");
             isdenkiman = (false);
             Debug.Log("1");
             Destroy(copydenkiman);
@@ -49,6 +49,8 @@ public class HensinScript : MonoBehaviour
             MainCam.SetActive(true);
             SubCam.SetActive(false);
             Camera.transform.SetParent(Robo.transform);
+			ZZZ.gameObject.SetActive(false);
+			eye.gameObject.SetActive(true);
         }
 	}
 
@@ -67,8 +69,10 @@ public class HensinScript : MonoBehaviour
 				copydenkiman.GetComponent<DenkimanScript>().genzaichi = col.gameObject.GetComponent<PointScript>();
 				MainCam.SetActive(false);
 				SubCam.SetActive(true);
+				eye.gameObject.SetActive(false);
+				ZZZ.gameObject.SetActive(true);
 				Debug.Log("kiteru");
-				//Camera.transform.SetParent(copydenkiman.transform);
+
 			}
 		}
 	}
