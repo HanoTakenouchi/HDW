@@ -16,7 +16,6 @@ public class ShotScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
     }
 
     // Update is called once per frame
@@ -26,7 +25,7 @@ public class ShotScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Z))
         {
             // 弾丸の複製
-            GameObject bullets = GameObject.Instantiate(bullet) as GameObject;
+            GameObject bullets = Instantiate(bullet) as GameObject;
 
 			Vector3 force = new Vector3(0,-1.5f,10.6f) * speed;
             // Rigidbodyに力を加えて発射

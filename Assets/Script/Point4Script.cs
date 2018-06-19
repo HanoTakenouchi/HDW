@@ -27,8 +27,8 @@ public class Point4Script : MonoBehaviour {
         {
 			if (Input.GetKeyUp(KeyCode.L))
             {
+				
                 Doramukan.GetComponent<Rigidbody>().useGravity = true;
-
             }
 
         }
