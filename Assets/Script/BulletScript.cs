@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour {
 
+   
+
 	// Use this for initialization
-	void Start(){
-		
+	void Start()
+	{
+		Invoke("DelayMethod", 1);
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		
 	}
 
@@ -18,5 +22,11 @@ public class BulletScript : MonoBehaviour {
     { 
         collision.gameObject.SendMessage("Damage");
     }
+
+	void DelayMethod()
+    {
+        Destroy(this.gameObject);
+    }
+    
 }
 

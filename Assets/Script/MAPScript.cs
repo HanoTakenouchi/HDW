@@ -5,7 +5,6 @@ using UnityEngine.Animations;
 
 public class MAPScript : MonoBehaviour {
 
-	public GameObject MAP;
 	Animation MAPAnimation;
     
 	// Use this for initialization
