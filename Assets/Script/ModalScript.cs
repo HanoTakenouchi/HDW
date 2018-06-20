@@ -15,7 +15,11 @@ public class ModalScript : MonoBehaviour
 	private bool flag;
 	private bool flag2;
 	private bool flag3;
-	private bool fig;
+
+	private void Awake()
+	{
+		
+	}
 	// Use this for initialization
 	void Start()
 	{
