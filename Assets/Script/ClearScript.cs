@@ -11,14 +11,18 @@ public class ClearScript : MonoBehaviour {
 	public GameObject Mission;
 	public GameObject Clear;
 	public GameObject Robo;
-	public GameObject ClearCanvas;
-    
+	public GameObject ClearGroup;
+	private bool flag;
+	private bool flag2;
+
+  
 	// Use this for initialization
 	void Start () 
 	{
 		MissionAnimation = Mission.gameObject.GetComponent<Animation>();
 		ClearAnimation = Clear.gameObject.GetComponent<Animation>();
-		ClearCanvas.gameObject.SetActive(false);
+		ClearGroup.gameObject.SetActive(false);
+		flag = true;
 	}
 	
 	// Update is called once per frame
@@ -26,15 +30,23 @@ public class ClearScript : MonoBehaviour {
 	{
 		if (Robo.transform.position.z >= 38)
 		{
-			Debug.Log("clear1");
-			ClearCanvas.gameObject.SetActive(true);
-			Debug.Log("clear2");
-			MissionAnimation.Play();
-			Debug.Log("clear3");
-            ClearAnimation.Play();
-			Debug.Log("clear4");
-		}
+			ClearGroup.gameObject.SetActive(true);
+			if (flag)
+			{
+				MissionAnimation.Play();
+				flag = false;
+				flag2 = true;
+				if (flag2)
+                {
+                    ClearAnimation.Play();
+                    flag2 = false;
+                }
+			}
 
+
+		//	gameObject.GetComponent<TransformScript>().enabled = false;
+		}
+        
 	}
 
 
