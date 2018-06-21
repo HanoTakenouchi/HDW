@@ -7,7 +7,6 @@ using UnityEngine.Animations;
 public class ConsoleBig1Script : MonoBehaviour
 {
 	public GameObject Canvas1;
-	private bool consoleflag;
 	Animation CanvasAnimation;
 
     
