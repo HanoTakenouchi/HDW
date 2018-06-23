@@ -4,9 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 
 public class DenkimanScript : MonoBehaviour
-{
-	private bool Transformflag;
-
+{   
     public PointScript genzaichi;
 
     // Use this for initialization

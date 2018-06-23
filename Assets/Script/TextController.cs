@@ -5,7 +5,6 @@ using UnityEngine.UI;
 // Messageboxのテキストを制御する
 public class TextController : MonoBehaviour
 {
-
     [SerializeField]
     [Range(0.001f, 0.3f)]
     public float intervalForCharacterDisplay = 0.05f;

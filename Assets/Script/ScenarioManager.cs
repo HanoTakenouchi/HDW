@@ -1,4 +1,4 @@
-﻿////using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.IO;
 using System.Text;
@@ -28,6 +28,7 @@ public class ScenarioManager : SingletonMonoBehaviourFast<ScenarioManager>
     public void UpdateLines(string fileName)
     {
         var scenarioText = Resources.Load<TextAsset>("Scenario/" + fileName);
+		Debug.Log(fileName);
 
         if (scenarioText == null)
         {
@@ -38,6 +39,11 @@ public class ScenarioManager : SingletonMonoBehaviourFast<ScenarioManager>
         }
         m_scenarios = scenarioText.text.Split(new string[] { "@br" }, System.StringSplitOptions.None);
         m_currentLine = 0;
+		Debug.Log(scenarioText.text);
+		Debug.Log("m_scenarios[0] = " + m_scenarios[0]);
+		Debug.Log("m_scenarios[1] = " + m_scenarios[1]);
+		Debug.Log("m_scenarios[2] = " + m_scenarios[2]);
+		Debug.Log(m_scenarios.Length);
 
         Resources.UnloadAsset(scenarioText);
     }
@@ -49,6 +55,7 @@ public class ScenarioManager : SingletonMonoBehaviourFast<ScenarioManager>
         var text = string.Empty;
         while ((text = lineReader.ReadLine()) != null)
         {
+			Debug.Log(text);
             var commentCharacterCount = text.IndexOf("//");
             if (commentCharacterCount != -1)
             {
@@ -85,6 +92,9 @@ public class ScenarioManager : SingletonMonoBehaviourFast<ScenarioManager>
             {
                 if (!m_isCallPreload)
                 {
+					Debug.Log("m_currentLine=" + m_currentLine);
+					Debug.Log("m_currentLine[]=" + m_scenarios[m_currentLine]);
+
                     m_commandController.PreloadCommand(m_scenarios[m_currentLine]);
                     m_isCallPreload = true;
                 }

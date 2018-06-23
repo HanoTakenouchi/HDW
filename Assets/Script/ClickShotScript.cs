@@ -15,9 +15,7 @@ public class ClickShotScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		Debug.Log("Click1");
 		ClickShot();
-		Debug.Log("Click4");
 	}
 
 	void ClickShot()
