@@ -16,6 +16,7 @@ public class ShotScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+		
     }
 
     // Update is called once per frame
@@ -27,7 +28,7 @@ public class ShotScript : MonoBehaviour
             // 弾丸の複製
             GameObject bullets = Instantiate(bullet) as GameObject;
 
-			Vector3 force = new Vector3(0,-1.5f,10.6f) * speed;
+			Vector3 force = Input.mousePosition;
             // Rigidbodyに力を加えて発射
             bullets.GetComponent<Rigidbody>().AddForce(force);
             // 弾丸の位置を調整

@@ -21,16 +21,16 @@ public class ConsoleScript : MonoBehaviour
 	{
 		if (collider.gameObject.tag == "Player")
 		{
-			doors.transform.position = Vector3.Lerp(doors.gameObject.transform.position, new Vector3(0.93f, -1.3963f, -54.66354f), Time.deltaTime);
+			doors.transform.position = Vector3.Lerp(doors.gameObject.transform.position, new Vector3(22.68091f, -1.3963f, -37.47354f), Time.deltaTime);
 		}
 	}
 
-	private void OnTriggerExit(Collider collider)
-	{
-		if (collider.gameObject.tag == "player")
-		{
-			doors.gameObject.transform.position = Vector3.Lerp(doors.gameObject.transform.position, new Vector3(9.46f, -1.3963f, -54.66354f), Time.deltaTime);
-		}
-	}
+	//private void OnTriggerExit(Collider collider)
+	//{
+	//	if (collider.gameObject.tag == "player")
+	//	{
+	//		doors.gameObject.transform.position = Vector3.Lerp(doors.gameObject.transform.position, new Vector3(9.46f, -1.3963f, -54.66354f), Time.deltaTime);
+	//	}
+	//}
 }
 

@@ -19,8 +19,8 @@ WallScript : MonoBehaviour
 	{
 		if (flag)
 		{
-			wall.gameObject.transform.position = Vector3.Lerp(wall.gameObject.transform.position, new Vector3(13.38f, -8.63f, 7.69f), Time.deltaTime);
-			lever.gameObject.transform.position = Vector3.Lerp(lever.gameObject.transform.position, new Vector3(-4.06f, 7.56f, 12.12f), Time.deltaTime);
+			wall.gameObject.transform.position = Vector3.Lerp(wall.gameObject.transform.position, new Vector3(0.06789999f, -0.098f, 0.0675f), Time.deltaTime);
+			lever.gameObject.transform.position = Vector3.Lerp(lever.gameObject.transform.position, new Vector3(-44.53f, 7.63f, -41.7f), Time.deltaTime);
 		}
 	}
 

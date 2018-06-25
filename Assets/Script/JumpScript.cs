@@ -12,7 +12,7 @@ public class JumpScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if(Input.GetKeyDown(KeyCode.Space)){
-            GetComponent<Rigidbody>().velocity = new Vector3(0, 6, 0);
+            GetComponent<Rigidbody>().velocity = new Vector3(0, 9, 0);
         }
 		
 	}

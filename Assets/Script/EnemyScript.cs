@@ -1,20 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyScript : MonoBehaviour {
 
     int enemyHP = 1;
-	//public GameObject effect;
-    //public float offset;
-    //public float deleteTime;
     public GameObject Robo;
-    //float minAngle = 0.0F;
-    //float maxAngle = 90.0F;
+	NavMeshAgent agent;
+	public Transform target; 
 
+    // 弾丸の速度
 	// Use this for initialization
-	void Start () {
-		
+	void Start () 
+	{
+		agent = GetComponent<NavMeshAgent>();
 	}
 	
 	// Update is called once per frame
@@ -23,15 +23,17 @@ public class EnemyScript : MonoBehaviour {
 	}
 
     void Damage(){
-		//var instantiateEffect = GameObject.Instantiate(effect, transform.position + new Vector3(0f, offset, 0f), Quaternion.identity) as GameObject;
-        //Destroy(instantiateEffect, deleteTime);
-        //float angle = Mathf.LerpAngle(minAngle, maxAngle, Time.time);
-        //transform.eulerAngles = new Vector3(0, angle, 0);
         enemyHP -= 1;
         if (enemyHP == 0){
-			//Vector3.Lerp(this.gameObject.transform.position, new Vector3(0.01f, -1, -30), Time.deltaTime);
             Destroy(this.gameObject);
         }
     }
 
+	private void OnTriggerStay(Collider collider)
+	{
+		if (collider.gameObject.tag == "Player")
+		{
+			agent.SetDestination(target.position);
+		}
+	}
 }
