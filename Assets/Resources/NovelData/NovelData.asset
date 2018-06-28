@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Name: NovelData
   m_EditorClassIdentifier: 
   comment: 
-  commands: []
+  commands:
+  - id: 0
+    parameters: []
