@@ -9,7 +9,7 @@ public class BulletScript : MonoBehaviour {
 	// Use this for initialization
 	void Start()
 	{
-		Invoke("DelayMethod", 1);
+		Invoke("DelayMethod", 0.1f);
 	}
 	
 	// Update is called once per frame
@@ -17,7 +17,7 @@ public class BulletScript : MonoBehaviour {
 	{
 		
 	}
-
+    
     private void OnCollisionEnter(Collision collision)
     { 
         collision.gameObject.SendMessage("Damage");
