@@ -39,7 +39,7 @@ public class ShotScript : MonoBehaviour
 				// 弾丸の位置を調整
 				bullets.transform.position = muzzle.position;
 
-				DenkiManager.CreateNumbers--;            
+				DenkiManager.CreateNumbers -= 1;            
 			}
 
 			if (DenkiManager.CreateNumbers <= 0)

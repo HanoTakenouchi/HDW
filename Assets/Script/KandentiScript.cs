@@ -10,26 +10,39 @@ public class KandentiScript : MonoBehaviour {
 	public GameObject MarkOmote;
 	public GameObject MarkUra;
 	public Material Grey;
+	public bool flag;
     
     // Use this for initialization
     void Start () {
-        
+		flag = true;
     }
     
     // Update is called once per frame
     void Update () {
         Base.gameObject.transform.Rotate(0,0,90*Time.deltaTime);
     }
-
+    
 	private void OnTriggerStay(Collider collider)
 	{
 		if (collider.gameObject.tag == "Player")
 		{
-			if (Input.GetKeyDown(KeyCode.Z)){
-				Debug.Log("Kan1");
-				MarkOmote.GetComponent<MeshRenderer>().material = Grey;
-				DenkiManager.CreateNumbers++;
-				Debug.Log("kan2");
+			KanOnclick();
+		}
+	}
+
+	void KanOnclick()
+	{
+		if (Input.GetKeyDown(KeyCode.Z))
+		{
+			if (DenkiManager.CreateNumbers < 14)
+			{
+				if (flag == true)
+				{
+					MarkOmote.GetComponent<MeshRenderer>().material = Grey;
+					DenkiManager.CreateNumbers += 1;
+					Debug.Log(DenkiManager.CreateNumbers);
+					flag = false;
+				}
 			}
 		}
 	}
