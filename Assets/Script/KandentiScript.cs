@@ -39,7 +39,7 @@ public class KandentiScript : MonoBehaviour {
 				if (flag == true)
 				{
 					MarkOmote.GetComponent<MeshRenderer>().material = Grey;
-					DenkiManager.CreateNumbers += 1;
+					DenkiManager.CreateNumbers += 3;
 					Debug.Log(DenkiManager.CreateNumbers);
 					flag = false;
 				}

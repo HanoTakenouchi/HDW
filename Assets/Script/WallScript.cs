@@ -19,7 +19,7 @@ WallScript : MonoBehaviour
 	{
 		if (flag)
 		{
-			wall.gameObject.transform.position = Vector3.Lerp(wall.gameObject.transform.position, new Vector3(0.06789999f, -0.098f, 0.0675f), Time.deltaTime);
+			wall.gameObject.transform.position = Vector3.Lerp(wall.gameObject.transform.position, new Vector3(-40.11001f,-9.200001f, -24.42f), Time.deltaTime);
 			lever.gameObject.transform.position = Vector3.Lerp(lever.gameObject.transform.position, new Vector3(-44.53f, 7.63f, -41.7f), Time.deltaTime);
 		}
 	}
@@ -28,7 +28,7 @@ WallScript : MonoBehaviour
 	{
 		if (collider.gameObject.tag == "denkiman")
 		{
-			if (Input.GetKey(KeyCode.L))
+			if (Input.GetKey(KeyCode.E))
 			{
 				flag = true;
 			}
