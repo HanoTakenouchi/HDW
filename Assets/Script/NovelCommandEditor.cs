@@ -595,10 +595,12 @@ public class NovelCommandEditor
 			position.width += NovelDataEditor.CommandPropertyWidth;
 			position.y += position.height;
 
-			//if (string.IsNullOrWhiteSpace(serializedHandleName.stringValue))
-			//{
-			//	serializedHandleName.stringValue = "Background";
-			//}
+
+            // error now
+			if (StringCommon.IsNullOrWhiteSpace(serializedHandleName.stringValue))
+			{
+				serializedHandleName.stringValue = "Background";
+			}
 
 			serializedHandleName.stringValue = EditorGUI.TextField(position, "ハンドル名", serializedHandleName.stringValue);
 			position.y += position.height;

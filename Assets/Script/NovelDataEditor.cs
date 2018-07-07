@@ -4,6 +4,7 @@ using UnityEditorInternal;
 using System;
 using System.Linq;
 using System.Collections.Generic;
+using System.Reflection;
 
 
 /// <summary>
@@ -72,6 +73,8 @@ public class NovelDataEditor : Editor
 		var nestedType = typeof(NovelCommandEditor).GetNestedTypes(System.Reflection.BindingFlags.Public);
 
 		// コマンド以外のクラスも含まれている為、除外しつつNovelCommandEditorAttributeを集計
+
+        //error now
 		attributes = nestedType
 			.Where(type => 0 < type.GetCustomAttributesData().Count)
 			.SelectMany(type => type.GetCustomAttributes(typeof(NovelCommandEditorAttribute), false))
@@ -128,7 +131,7 @@ public class NovelDataEditor : Editor
 			var parameters = serializedCommand.FindPropertyRelative("parameters");
 			if (parameters.arraySize <= 0) { continue; }
 			var groupName = parameters.GetArrayElementAtIndex(0).stringValue;
-			if (string.IsNullOrWhiteSpace(groupName)) { continue; }
+			if (StringCommon.IsNullOrWhiteSpace(groupName)) { continue; }
 
 			groupDic[groupName] = serializedCommand;
 		}
