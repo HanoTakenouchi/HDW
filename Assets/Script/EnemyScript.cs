@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Animations;
+using UnityEngine.UI;
 
 public class EnemyScript : MonoBehaviour {
 
-    int enemyHP = 1;
     public GameObject Robo;
 	NavMeshAgent agent;
 	public Transform target; 
@@ -21,19 +20,12 @@ public class EnemyScript : MonoBehaviour {
 	{
 		agent = GetComponent<NavMeshAgent>();
 	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		
-	}
 
-    void Damage(){
-        enemyHP -= 1;
-        if (enemyHP == 0){
-            Destroy(this.gameObject);
-        }
-    }
+	// Update is called once per frame
+	void Update()
+	{
+
+	}
 
 	private void OnTriggerStay(Collider collider)
 	{

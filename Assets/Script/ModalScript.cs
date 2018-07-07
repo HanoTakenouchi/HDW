@@ -10,10 +10,12 @@ public class ModalScript : MonoBehaviour
 	Animation SousaGroupAnimation;
 	Animation Sousa2GroupAnimation;
 	Animation Sousa3GroupAnimation;
+	Animation Sousa6GroupAnimation;
    
 	public GameObject SousaGroup;
 	public GameObject Sousa2Group;
 	public GameObject Sousa3Group;
+	public GameObject Sousa6Group;
 	public GameObject Robo;
 	private bool flag;
 	private bool flag2;
@@ -21,6 +23,9 @@ public class ModalScript : MonoBehaviour
 	private bool flag4;
 	private bool flag5;
 	private bool flag6;
+	private bool flag13;
+	private bool flag14;
+	private bool flag15;
    
 
 	// Use this for initialization
@@ -29,10 +34,13 @@ public class ModalScript : MonoBehaviour
 		SousaGroupAnimation = SousaGroup.gameObject.GetComponent<Animation>();
 		Sousa2GroupAnimation = Sousa2Group.gameObject.GetComponent<Animation>();
 		Sousa3GroupAnimation = Sousa3Group.gameObject.GetComponent<Animation>();
+		Sousa6GroupAnimation = Sousa6Group.gameObject.GetComponent<Animation>();
 		Sousa2GroupAnimation.gameObject.SetActive(false);
 		Sousa3GroupAnimation.gameObject.SetActive(false);
+		Sousa6GroupAnimation.gameObject.SetActive(false);
 		flag = true;
 		flag4 = true;
+		flag13 = true;
 	}
 
 	// Update is called once per frame
@@ -94,8 +102,33 @@ public class ModalScript : MonoBehaviour
 					flag6 = false;
 				}
 			}
-
+            
 		}
+        
+		if (Robo.gameObject.transform.position.x <= -9)
+        {
+			if (flag13)
+            {
+				Sousa6GroupAnimation.gameObject.SetActive(true);
+                flag13 = false;
+                flag14 = true;
+            }
+            if (flag14)
+            {
+                Sousa6GroupAnimation.Play();
+                flag14 = false;
+                flag15 = true;
+            }
+            if (flag15)
+            {
+                if (Input.GetKey(KeyCode.E))
+                {
+					Sousa6GroupAnimation.gameObject.SetActive(false);
+					flag15 = false;
+                }
+            }
+
+        }
 	}
 }
 
