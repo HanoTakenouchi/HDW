@@ -94,6 +94,7 @@ public class GameSystem : MonoBehaviour
 			tipsGameObject.SetActive(true);
 			var tipsText = tipsGameObject.GetComponentInChildren<TMPro.TextMeshProUGUI>();
 			tipsText.text = string.Format("<#ffff00>【{0}】</color>\n{1}", linkText, linkID);
+
 		}
 	}
 

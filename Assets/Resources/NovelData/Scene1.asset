@@ -13,42 +13,178 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   comment: 
   commands:
+  - id: 1
+    parameters:
+    - "\u540D\u524D\u3001\u6587"
   - id: 4
     parameters:
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
+    - '#TextNameWrite'
     - 2
+    - 3
+    - '@name'
+    - 4
+    - '@text'
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+    - "\u540D\u524D\u3001\u6587"
+  - id: 102002
+    parameters: []
+  - id: 101002
+    parameters: []
+  - id: 102001
+    parameters:
+    - '@name'
+  - id: 101001
+    parameters:
+    - '@text'
+  - id: 101102
+    parameters: []
+  - id: 5
+    parameters: []
+  - id: 1
+    parameters:
+    - "\u6587"
+  - id: 4
+    parameters:
+    - '#TextWrite'
+    - 1
+    - 4
+    - '@text'
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+    - "\u6587"
+  - id: 101002
+    parameters: []
+  - id: 101001
+    parameters:
+    - '@text'
+  - id: 101102
+    parameters: []
+  - id: 5
+    parameters: []
+  - id: 1
+    parameters:
+    - Title
+  - id: 4
+    parameters:
+    - '#Title'
+    - 1
+    - 4
+    - '@titletext'
     - 0
-    - "@SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
+    - '@Title'
     - 0
-    - "@SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
-    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r\n\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\nSystem
-      all Green.\r\nShelter open.\r\n"
+    - '@Title'
+    - 0
+    - '@Title'
+    - 0
+    - '@Title'
+    - Title
+    - Title
+    - Title
+    - Title
+    - Title
+    - Title
+    - Title
+    - Title
+  - id: 101101
+    parameters:
+    - TitleAnimation
+  - id: 6
+    parameters:
+    - '#TextNameWrite'
+    - 2
+    - '@name'
+    - 
+    - '@text'
+    - '@titletext'
+    - TitleAnimation
+    - TitleAnimation
+    - TitleAnimation
+    - TitleAnimation
+    - TitleAnimation
+    - TitleAnimation
+    - TitleAnimation
+  - id: 101101
+    parameters:
+    - DefaultAnimation
+  - id: 5
+    parameters: []
+  - id: 1
+    parameters:
+    - "\u51E6\u7406\u958B\u59CB"
+  - id: 99001001
+    parameters:
+    - 0.5
+  - id: 101002
+    parameters: []
+  - id: 102002
+    parameters: []
+  - id: 101003
+    parameters: []
+  - id: 102003
+    parameters: []
+  - id: 201001
+    parameters:
+    - imgRobo
+    - Robokuro
+    - -0.3
+    - 0
+    - 0.25
+    - False
+  - id: 6
+    parameters:
+    - '#TextNameWrite'
+    - 2
+    - '@name'
+    - SO-1
+    - '@text'
+    - "SO-1 Start Up...\t\r\nArtificial Intelligence Start Up\u2026\r"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+  - id: 99001003
+    parameters: []
+  - id: 6
+    parameters:
+    - '#TextWrite'
+    - 1
+    - '@text'
+    - "\u30B8\u30E3\u30A4\u30ED\u30BB\u30F3\u30B5\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\u81EA\u7ACB\u53EF\u80FD\u3002\u62D8\u675F\u89E3\u9664\u3002\r\n\u5149\u7DDA\u9283\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n\u72B6\u614B\u5909\u5316\u6A5F\u80FD\u3001\u6B63\u5E38\u306B\u6A5F\u80FD\u3002\r\n"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 

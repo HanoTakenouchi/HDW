@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 71d32ffc604014d88b61d3be822870e8
-timeCreated: 1528960344
+guid: 5141c7d87dcc34a1792a7c22a255cb26
+timeCreated: 1529556544
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -8,7 +8,7 @@ TextureImporter:
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,30 +34,40 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  spritePivot: {x: 0, y: 1}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -69,7 +79,26 @@ TextureImporter:
   spriteSheet:
     serializedVersion: 2
     sprites: []
-    outline: []
+    outline:
+    - - {x: 743.25, y: 825.7031}
+      - {x: 701.9584, y: 825.7031}
+      - {x: 674.4306, y: 798.1797}
+      - {x: 688.19446, y: 825.7031}
+      - {x: 660.6667, y: 908.27344}
+      - {x: 523.0278, y: 977.08203}
+      - {x: 481.7361, y: 1293.6016}
+      - {x: 96.34723, y: 1458.7422}
+      - {x: -440.44446, y: 1458.7422}
+      - {x: -523.0278, y: 1183.5078}
+      - {x: -523.0278, y: 908.27344}
+      - {x: -715.7222, y: -247.71094}
+      - {x: -715.7222, y: -440.375}
+      - {x: -302.80557, y: -935.7969}
+      - {x: -192.69446, y: -963.3203}
+      - {x: 206.45834, y: -963.3203}
+      - {x: 591.8472, y: -261.47266}
+      - {x: 798.3056, y: 660.5625}
+      - {x: 798.3056, y: 798.1797}
     physicsShape: []
   spritePackingTag: 
   userData: 
