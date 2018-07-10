@@ -10,6 +10,7 @@ TagManager:
   - denkiman
   - doramukan
   - Point1
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -20,8 +21,8 @@ TagManager:
   - 
   - 
   - CustomPostEffectIgnore
-  - 
-  - 
+  - Utage
+  - UtageUI
   - 
   - 
   - 
