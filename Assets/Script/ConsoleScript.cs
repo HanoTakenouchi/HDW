@@ -21,7 +21,7 @@ public class ConsoleScript : MonoBehaviour
 	{
 		if (collider.gameObject.tag == "Player")
 		{
-			doors.transform.position = Vector3.Lerp(doors.gameObject.transform.position, new Vector3(22.68091f, -1.3963f, -37.47354f), Time.deltaTime);
+			doors.transform.position = Vector3.Lerp(doors.gameObject.transform.position, new Vector3(1.010912f, -1.3963f, -37.96354f), Time.deltaTime);
 		}
 	}
 

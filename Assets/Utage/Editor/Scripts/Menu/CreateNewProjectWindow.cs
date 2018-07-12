@@ -593,6 +593,7 @@ namespace Utage
 			foreach (GameObject go in prefabInstanceList)
 			{
 				GameObject prefabAsset = PrefabUtility.GetPrefabParent(go) as GameObject;
+				Debug.Log(prefabAsset);
 				Object clonePrefabAsset;
 				if (cloneAssetPair.TryGetValue(prefabAsset, out clonePrefabAsset))
 				{
