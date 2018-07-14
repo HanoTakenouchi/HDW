@@ -42,9 +42,41 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - SO-1
+      - "\u3042\u306A\u305F"
+      - "\u901A\u5E38"
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - Robo/Robo
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - 
+      - "\u3042\u306A\u305F"
+      - "\u30AA\u30D5"
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - Robo/Robokuro
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/Electron/Electron.xls:Character
     type: 1
-    textLength: 154
+    textLength: 194
     headerRow: 0
   - rows:
     - rowIndex: 0
@@ -110,9 +142,42 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u30AD\u30E3\u30E9\u4E2D\u592E"
+      - Character
+      - 0
+      - -50
+      - 1
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - "\u30AD\u30E3\u30E9\u5DE6"
+      - Character
+      - -250
+      - -50
+      - 2
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - "\u30AD\u30E3\u30E9\u53F3"
+      - Character
+      - 250
+      - -50
+      - 3
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/Electron/Electron.xls:Layer
     type: 1
-    textLength: 109
+    textLength: 169
     headerRow: 0
   - rows:
     - rowIndex: 0

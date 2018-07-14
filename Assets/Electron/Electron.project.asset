@@ -15,7 +15,7 @@ MonoBehaviour:
   chapterDataList:
   - chapterName: Boot
     excelList:
-    - {fileID: 102900000, guid: f92efa71b24084a63aea270483d39f7a, type: 3}
+    - {fileID: 102900000, guid: 5e6ebe653784a4cec92a039e8f0ec1ac, type: 3}
     excelDir: {fileID: 0}
   checkWaitType: 0
   checkWhiteSpaceEndOfCell: 1
