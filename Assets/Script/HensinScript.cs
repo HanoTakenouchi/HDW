@@ -11,7 +11,7 @@ public class HensinScript : MonoBehaviour
 
 	public GameObject copydenkiman;
 
-	bool isdenkiman;
+	bool isdenkiman ;
 
 	public GameObject Camera;
 
@@ -38,7 +38,7 @@ public class HensinScript : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetKey(KeyCode.O))
+		if (Input.GetMouseButtonDown(1)) 
         {
             Debug.Log("kireru1");
             isdenkiman = (false);
@@ -53,11 +53,11 @@ public class HensinScript : MonoBehaviour
 			eye.gameObject.SetActive(true);
         }
 	}
-
+    
 	private void OnTriggerStay(Collider col)
 	{
 		//Debug.Log(col.gameObject.tag);
-		if (Input.GetKeyDown(KeyCode.P) && col.gameObject.tag == "point")
+		if (Input.GetMouseButtonDown(1) && col.gameObject.tag == "point")
 		{
 			Debug.Log("change");
 			isPoint = false;

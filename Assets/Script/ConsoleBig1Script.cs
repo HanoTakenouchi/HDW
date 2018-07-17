@@ -37,7 +37,7 @@ public class ConsoleBig1Script : MonoBehaviour
 		{
 			if (ConsoleCount == 1)
 			{
-				if (Input.GetKeyUp(KeyCode.E))
+				if (Input.GetMouseButtonDown(1)) 
 				{
                     
 					if (ConFlag == true)
@@ -52,7 +52,7 @@ public class ConsoleBig1Script : MonoBehaviour
 			}
 			if (ConsoleCount == 2)
             {
-				if(Input.GetKey(KeyCode.E))
+				if(Input.GetMouseButtonDown(1)) 
 			    {
 					if (ConFlag2 == true)
 					{

@@ -9,7 +9,7 @@ public class TalkArea : MonoBehaviour {
     public AdvEngine engine;
     public string scenarioLabel;
 
-    // コリジョンにぶつかった
+
     void Start()
     {
         StartCoroutine(CoTalk());

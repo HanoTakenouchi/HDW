@@ -74,9 +74,25 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - Electron
+      - "\u3042\u306A\u305F"
+      - "\u901A\u5E38"
+      - 
+      - 
+      - 
+      - 
+      - .2
+      - 
+      - Electron/Electron
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/Electron/Electron.xls:Character
     type: 1
-    textLength: 194
+    textLength: 226
     headerRow: 0
   - rows:
     - rowIndex: 0
@@ -175,9 +191,20 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - "Electron\u5DE6"
+      - Character
+      - -250
+      - 0
+      - 4
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/Electron/Electron.xls:Layer
     type: 1
-    textLength: 169
+    textLength: 193
     headerRow: 0
   - rows:
     - rowIndex: 0

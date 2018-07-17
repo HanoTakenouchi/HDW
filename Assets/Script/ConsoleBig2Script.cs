@@ -45,7 +45,7 @@ public class ConsoleBig2Script : MonoBehaviour
     }
 	void Big1Click()
 	{
-		if (Input.GetKeyUp(KeyCode.L))
+		if (Input.GetMouseButtonDown(1)) 
         {
 
             if (ConFlag == true)
@@ -62,7 +62,7 @@ public class ConsoleBig2Script : MonoBehaviour
 
 	void Big2Click()
 	{
-		if (Input.GetKeyDown(KeyCode.L))
+		if (Input.GetMouseButtonDown(1)) 
         {
             if (ConFlag2 == true)
             {
