@@ -4,19 +4,20 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
-public class EnemyScript : MonoBehaviour {
+public class EnemyScript : MonoBehaviour
+{
 
-    public GameObject Robo;
+	public GameObject Robo;
 	NavMeshAgent agent;
-	public Transform target; 
+	public Transform target;
 	public GameObject bullet;
-    public Transform muzzle;
-    public float speed = 50;
+	public Transform muzzle;
+	public float speed = 50;
 	public GameObject Groove;
-
-    // 弾丸の速度
+	public Animator EnemyAnimator;
+ 
 	// Use this for initialization
-	void Start () 
+	void Start()
 	{
 		agent = GetComponent<NavMeshAgent>();
 	}
@@ -25,6 +26,15 @@ public class EnemyScript : MonoBehaviour {
 	void Update()
 	{
 
+	}
+
+	private void OnTriggerEnter(Collider collider)
+	{
+		if (collider.gameObject.tag == "bullet")
+        {
+            EnemyAnimator.SetBool("Walking", false);
+            EnemyAnimator.SetBool("Dying", true);
+        }
 	}
 
 	private void OnTriggerStay(Collider collider)
@@ -39,14 +49,18 @@ public class EnemyScript : MonoBehaviour {
 
 			Vector3 force = Robo.gameObject.transform.position;
 
-            bullets.GetComponent<Rigidbody>().AddForce(force);
+			bullets.GetComponent<Rigidbody>().AddForce(force);
 
-            bullets.transform.position = muzzle.position;
+			bullets.transform.position = muzzle.position;
 		}
 	}
 
 	private void OnTriggerExit(Collider collider)
 	{
+		if (collider.tag == "gate")
+        {
+            EnemyAnimator.SetBool("Walking", true);
+        }
 		Groove.GetComponent<SpriteRenderer>().color = Color.cyan;
 	}
 }

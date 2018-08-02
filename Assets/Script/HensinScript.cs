@@ -38,7 +38,7 @@ public class HensinScript : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetMouseButtonDown(1)) 
+		if (Input.GetKeyDown(KeyCode.P))
         {
             Debug.Log("kireru1");
             isdenkiman = (false);
@@ -57,7 +57,7 @@ public class HensinScript : MonoBehaviour
 	private void OnTriggerStay(Collider col)
 	{
 		//Debug.Log(col.gameObject.tag);
-		if (Input.GetMouseButtonDown(1) && col.gameObject.tag == "point")
+		if (Input.GetKeyDown(KeyCode.O) && col.gameObject.tag == "point")
 		{
 			Debug.Log("change");
 			isPoint = false;

@@ -52,7 +52,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .5
+      - .3
       - 
       - Robo/Robo
       isEmpty: 0
@@ -62,20 +62,52 @@ MonoBehaviour:
       debugIndex: 2
       strings:
       - 
-      - "\u3042\u306A\u305F"
-      - "\u30AA\u30D5"
+      - 
+      - "\u7720\u3044"
       - 
       - 
       - 
       - 
-      - .5
+      - .3
       - 
-      - Robo/Robokuro
+      - Robo/RoboNeko
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 3
       debugIndex: 3
+      strings:
+      - 
+      - 
+      - "\u7591\u554F"
+      - 
+      - 
+      - 
+      - 
+      - .3
+      - 
+      - Robo/RoboQ
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
+      - 
+      - 
+      - "\u30AA\u30D5"
+      - 
+      - 
+      - 
+      - 
+      - .3
+      - 
+      - Robo/Robokuro
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 5
+      debugIndex: 5
       strings:
       - Electron
       - "\u3042\u306A\u305F"
@@ -84,15 +116,127 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .2
+      - .08
       - 
       - Electron/Electron
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 6
+      debugIndex: 6
+      strings:
+      - 
+      - 
+      - "\u7720\u3044"
+      - 
+      - 
+      - 
+      - 
+      - .08
+      - 
+      - Electron/ElectronSleep
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - 
+      - 
+      - "\u7591\u554F"
+      - 
+      - 
+      - 
+      - 
+      - .08
+      - 
+      - Electron/ElectronQ
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - AI
+      - AI
+      - "\u901A\u5E38"
+      - 
+      - 
+      - 
+      - 
+      - .4
+      - 
+      - AI/Aihutuu
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - 
+      - 
+      - "\u62D7\u306D\u308B"
+      - 
+      - 
+      - 
+      - 
+      - .4
+      - 
+      - AI/AIpu-
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 10
+      debugIndex: 10
+      strings:
+      - 
+      - 
+      - "\u60B2\u3057\u3044"
+      - 
+      - 
+      - 
+      - 
+      - .4
+      - 
+      - AI/AIsyobon
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 11
+      debugIndex: 11
+      strings:
+      - 
+      - 
+      - "\u8A71\u3059"
+      - 
+      - 
+      - 
+      - 
+      - .4
+      - 
+      - AI/Aihanasu
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 12
+      debugIndex: 12
+      strings:
+      - 
+      - 
+      - "\u7B11\u3046"
+      - 
+      - 
+      - 
+      - 
+      - .4
+      - 
+      - AI/Ainikoniko
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/Electron/Electron.xls:Character
     type: 1
-    textLength: 226
+    textLength: 384
     headerRow: 0
   - rows:
     - rowIndex: 0
@@ -175,7 +319,7 @@ MonoBehaviour:
       - "\u30AD\u30E3\u30E9\u5DE6"
       - Character
       - -250
-      - -50
+      - -200
       - 2
       isEmpty: 0
       isCommentOut: 0
@@ -204,7 +348,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/Electron/Electron.xls:Layer
     type: 1
-    textLength: 193
+    textLength: 194
     headerRow: 0
   - rows:
     - rowIndex: 0
@@ -382,9 +526,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - flag1
+      - Bool
+      - FALSE
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/Electron/Electron.xls:Param
     type: 1
-    textLength: 22
+    textLength: 36
     headerRow: 0
   - rows:
     - rowIndex: 0

@@ -26,4 +26,11 @@ public class TalkArea : MonoBehaviour {
             yield return 0;
         }
     }
+
+	public void Clear()
+    {
+        engine.Param.GetParameter("flag1");
+        engine.Param.TrySetParameter("flag1", true);
+    }
+
 }
