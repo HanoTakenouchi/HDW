@@ -147,7 +147,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 777fd2a6179f44280a06f3093eabdce8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 109a9d30d5761410d804981f85a0ce20, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -207,7 +207,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 0a03303c983d742b0a441ae52e574079, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 33a974205c3b24465918c4d34a0209a7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -245,10 +245,10 @@ MonoBehaviour:
   letterSpaceSize: 2
   wordWrap: -1
   lengthOfView: -1
-  textSettings: {fileID: 11400000, guid: 6738e9eee47444a64a843537274b1300, type: 2}
+  textSettings: {fileID: 11400000, guid: 8728fb9b59ed04ec69ddc66df46b7f9a, type: 2}
   rubySizeScale: 0.5
   supOrSubSizeScale: 0.5
-  emojiData: {fileID: 11400000, guid: 410b8358802e344b083f07d72db3de1b, type: 2}
+  emojiData: {fileID: 11400000, guid: 11f77671500114aa186609fa76f7d85f, type: 2}
   dashChar: 8212
   bmpFontSize: 1
   isUnicodeFont: 0
@@ -300,10 +300,10 @@ MonoBehaviour:
   letterSpaceSize: 2
   wordWrap: -1
   lengthOfView: -1
-  textSettings: {fileID: 11400000, guid: 6738e9eee47444a64a843537274b1300, type: 2}
+  textSettings: {fileID: 11400000, guid: 8728fb9b59ed04ec69ddc66df46b7f9a, type: 2}
   rubySizeScale: 0.5
   supOrSubSizeScale: 0.5
-  emojiData: {fileID: 11400000, guid: 410b8358802e344b083f07d72db3de1b, type: 2}
+  emojiData: {fileID: 11400000, guid: 11f77671500114aa186609fa76f7d85f, type: 2}
   dashChar: 8212
   bmpFontSize: 1
   isUnicodeFont: 0

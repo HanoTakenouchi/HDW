@@ -60,8 +60,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7338c13e8f0b4173bd506c6aa80f0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clicked: {fileID: 8300000, guid: c950fb191e44c42e59bd9e06a92d75e6, type: 3}
-  highlited: {fileID: 8300000, guid: 8664e87d112e846b7927a95960335b15, type: 3}
+  clicked: {fileID: 8300000, guid: 8dab0d25de8c142229eedc9252fb4046, type: 3}
+  highlited: {fileID: 8300000, guid: c62e3dd53a72d49029e536b1384661b2, type: 3}
   clickedPlayMode: 0
   highlitedPlayMode: 0
 --- !u!114 &11400006
@@ -157,7 +157,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 777fd2a6179f44280a06f3093eabdce8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 109a9d30d5761410d804981f85a0ce20, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

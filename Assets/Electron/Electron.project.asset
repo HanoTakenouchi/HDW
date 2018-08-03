@@ -15,7 +15,7 @@ MonoBehaviour:
   chapterDataList:
   - chapterName: Boot
     excelList:
-    - {fileID: 102900000, guid: 5e6ebe653784a4cec92a039e8f0ec1ac, type: 3}
+    - {fileID: 102900000, guid: 4a9991b12ebf848feb672f0f0962c078, type: 3}
     excelDir: {fileID: 0}
   checkWaitType: 0
   checkWhiteSpaceEndOfCell: 1
@@ -27,16 +27,16 @@ MonoBehaviour:
   isAutoUpdateVersionAfterConvert: 0
   isAutoConvertOnImport: 0
   customInportSpriteFolders:
-  - {fileID: 102900000, guid: c75bbe08feaef42a4af42b35b95c4d02, type: 3}
-  - {fileID: 102900000, guid: 3de266049039944808c2cbeb64ba3bf7, type: 3}
-  - {fileID: 102900000, guid: bc7689940d988418eb58551276f56f0b, type: 3}
-  - {fileID: 102900000, guid: 424e313752f0d4cf0a9690e556872d0a, type: 3}
-  - {fileID: 102900000, guid: 35288d908d2b64e48b4996fabf7029a8, type: 3}
+  - {fileID: 102900000, guid: 413a36a9936d547c9a4facffd1aa0306, type: 3}
+  - {fileID: 102900000, guid: 0545b3b8ae5904552be80956e7782f0a, type: 3}
+  - {fileID: 102900000, guid: 847006737be4e4b8cb6c709abdf86bc8, type: 3}
+  - {fileID: 102900000, guid: 2e3be8a6ee2704ccbbc122b7cc5e5fab, type: 3}
+  - {fileID: 102900000, guid: d765acb0650904983bd85cf758f05a6a, type: 3}
   customInportAudioFolders:
-  - {fileID: 102900000, guid: 4884a04ac7ab94657901529c31d90388, type: 3}
-  - {fileID: 102900000, guid: dd93b1bce12ba49508ad62972d96ad53, type: 3}
-  - {fileID: 102900000, guid: fd5aaaaa80a074fcc802259d4507efbc, type: 3}
-  - {fileID: 102900000, guid: 39cdeedede9a846bf9efa408a89cf89e, type: 3}
+  - {fileID: 102900000, guid: b7143d39e3da341caa16f0255a49a842, type: 3}
+  - {fileID: 102900000, guid: c423ee8d18e6646c786e7e5ba530671a, type: 3}
+  - {fileID: 102900000, guid: e2fae9f7a905f41d6884d5149cb1ed61, type: 3}
+  - {fileID: 102900000, guid: b5c30ad45e7be470099ff49d2d7d484b, type: 3}
   customInportMovieFolders: []
   quickImport: 0
   parseFormula: 0

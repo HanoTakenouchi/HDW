@@ -104,7 +104,7 @@ MonoBehaviour:
   no: {fileID: 11400006}
   date: {fileID: 11400008}
   captureImage: {fileID: 11400010}
-  autoSaveIcon: {fileID: 2800000, guid: c9d63ef2858404f6eb9699e249b6225a, type: 3}
+  autoSaveIcon: {fileID: 2800000, guid: 9ce3bce8bb2bb462b96e60dd1116aa96, type: 3}
   textEmpty: Empty
 --- !u!114 &11400002
 MonoBehaviour:
@@ -125,7 +125,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 777fd2a6179f44280a06f3093eabdce8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 109a9d30d5761410d804981f85a0ce20, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -259,7 +259,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Texture: {fileID: 2800000, guid: d60be1bc206c84176b4363baf782cdd9, type: 3}
+  m_Texture: {fileID: 2800000, guid: 819cf6f2c51fd43ceb6d378bb9828da5, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -277,8 +277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7338c13e8f0b4173bd506c6aa80f0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clicked: {fileID: 8300000, guid: c950fb191e44c42e59bd9e06a92d75e6, type: 3}
-  highlited: {fileID: 8300000, guid: 8664e87d112e846b7927a95960335b15, type: 3}
+  clicked: {fileID: 8300000, guid: 8dab0d25de8c142229eedc9252fb4046, type: 3}
+  highlited: {fileID: 8300000, guid: c62e3dd53a72d49029e536b1384661b2, type: 3}
   clickedPlayMode: 0
   highlitedPlayMode: 0
 --- !u!114 &11416070
@@ -329,10 +329,10 @@ MonoBehaviour:
   letterSpaceSize: 1
   wordWrap: -1
   lengthOfView: -1
-  textSettings: {fileID: 11400000, guid: 6738e9eee47444a64a843537274b1300, type: 2}
+  textSettings: {fileID: 11400000, guid: 8728fb9b59ed04ec69ddc66df46b7f9a, type: 2}
   rubySizeScale: 0.5
   supOrSubSizeScale: 0.5
-  emojiData: {fileID: 11400000, guid: 410b8358802e344b083f07d72db3de1b, type: 2}
+  emojiData: {fileID: 11400000, guid: 11f77671500114aa186609fa76f7d85f, type: 2}
   dashChar: 8212
   bmpFontSize: 0
   isUnicodeFont: 0

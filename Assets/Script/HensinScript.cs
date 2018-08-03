@@ -20,9 +20,9 @@ public class HensinScript : MonoBehaviour
 	bool isPoint = true;
 	//public Collider collider;
 
-	public GameObject MainCam;
+	//public GameObject MainCam;
 
-	public GameObject SubCam;
+	//public GameObject SubCam;
 
 	public GameObject ZZZ;
 
@@ -46,8 +46,8 @@ public class HensinScript : MonoBehaviour
             Destroy(copydenkiman);
             Debug.Log("2");
             gameObject.GetComponent<TransformScript>().enabled = true;
-            MainCam.SetActive(true);
-            SubCam.SetActive(false);
+            //MainCam.SetActive(true);
+            //SubCam.SetActive(false);
             Camera.transform.SetParent(Robo.transform);
 			ZZZ.gameObject.SetActive(false);
 			eye.gameObject.SetActive(true);
@@ -67,8 +67,8 @@ public class HensinScript : MonoBehaviour
 				isdenkiman = true;
 				gameObject.GetComponent<TransformScript>().enabled = false;
 				copydenkiman.GetComponent<DenkimanScript>().genzaichi = col.gameObject.GetComponent<PointScript>();
-				MainCam.SetActive(false);
-				SubCam.SetActive(true);
+				//MainCam.SetActive(false);
+				//SubCam.SetActive(true);
 				eye.gameObject.SetActive(false);
 				ZZZ.gameObject.SetActive(true);
 				Debug.Log("kiteru");

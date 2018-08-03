@@ -110,7 +110,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 898013aaf0b38400aa19c491aff25579, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 75d375da575534932a1edc0d78bed66d, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7338c13e8f0b4173bd506c6aa80f0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clicked: {fileID: 8300000, guid: c950fb191e44c42e59bd9e06a92d75e6, type: 3}
-  highlited: {fileID: 8300000, guid: 8664e87d112e846b7927a95960335b15, type: 3}
+  clicked: {fileID: 8300000, guid: 8dab0d25de8c142229eedc9252fb4046, type: 3}
+  highlited: {fileID: 8300000, guid: c62e3dd53a72d49029e536b1384661b2, type: 3}
   clickedPlayMode: 0
   highlitedPlayMode: 0
 --- !u!114 &11408032
@@ -181,10 +181,10 @@ MonoBehaviour:
   letterSpaceSize: 1
   wordWrap: -1
   lengthOfView: -1
-  textSettings: {fileID: 11400000, guid: 6738e9eee47444a64a843537274b1300, type: 2}
+  textSettings: {fileID: 11400000, guid: 8728fb9b59ed04ec69ddc66df46b7f9a, type: 2}
   rubySizeScale: 0.5
   supOrSubSizeScale: 0.5
-  emojiData: {fileID: 11400000, guid: 410b8358802e344b083f07d72db3de1b, type: 2}
+  emojiData: {fileID: 11400000, guid: 11f77671500114aa186609fa76f7d85f, type: 2}
   dashChar: 8212
   bmpFontSize: 1
   isUnicodeFont: 0

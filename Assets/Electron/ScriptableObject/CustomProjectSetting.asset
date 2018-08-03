@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48c4aa17f89b11d4596f9f9d5dc89489, type: 3}
   m_Name: CustomProjectSetting
   m_EditorClassIdentifier: 
-  language: {fileID: 11400000, guid: 212682d751e694b19a1b81c034046ed7, type: 2}
+  language: {fileID: 11400000, guid: 8bca9c4887ec945a688d1fd58c740ff5, type: 2}

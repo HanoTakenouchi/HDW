@@ -3,36 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
 
-public class EnemyWalkingScript : MonoBehaviour {
-	
-	public GameObject Gate;
+public class EnemyWalkingScript : MonoBehaviour
+{
 	Animator EnemyAnimator;
-	// Use this for initialization
-	void Start () 
+	// Use this for initialization11
+	void Start()
 	{
-		
+
 	}
-	
+
 	// Update is called once per frame
-	void Update () 
+	void Update()
 	{
-		
+
 	}
 
 	private void OnTriggerEnter(Collider collider)
-    {
-        if (collider.gameObject.tag == "bullet")
-        {
-            EnemyAnimator.SetBool("Walking", false);
-            EnemyAnimator.SetBool("Dying", true);
-        }
-    }
-
-	private void OnCollisionExit(Collision collision)
 	{
-		if (collision.gameObject.tag == "gate")
+		if (collider.gameObject.tag == "Player")
 		{
-			EnemyAnimator.SetBool("Walking", true);
+			EnemyAnimator.SetInteger("AnimationInt",1);
 		}
 	}
+
 }
+
