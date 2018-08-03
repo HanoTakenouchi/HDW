@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class HensinScript : MonoBehaviour
 {
+	public CinemachineVirtualCamera camera;
 
 	public Transform muzzle2;
 
@@ -13,7 +15,7 @@ public class HensinScript : MonoBehaviour
 
 	bool isdenkiman ;
 
-	public GameObject Camera;
+	//public GameObject Camera;
 
 	public GameObject Robo;
 
@@ -38,8 +40,10 @@ public class HensinScript : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.P))
+		if (Input.GetKeyDown(KeyCode.O))
         {
+			CameraControllerScript.priority -= 1;
+			camera.Priority = CameraControllerScript.priority;
             Debug.Log("kireru1");
             isdenkiman = (false);
             Debug.Log("1");
@@ -48,7 +52,7 @@ public class HensinScript : MonoBehaviour
             gameObject.GetComponent<TransformScript>().enabled = true;
             //MainCam.SetActive(true);
             //SubCam.SetActive(false);
-            Camera.transform.SetParent(Robo.transform);
+            //Camera.transform.SetParent(Robo.transform);
 			ZZZ.gameObject.SetActive(false);
 			eye.gameObject.SetActive(true);
         }
@@ -57,12 +61,14 @@ public class HensinScript : MonoBehaviour
 	private void OnTriggerStay(Collider col)
 	{
 		//Debug.Log(col.gameObject.tag);
-		if (Input.GetKeyDown(KeyCode.O) && col.gameObject.tag == "point")
+		if (Input.GetKeyDown(KeyCode.P) && col.gameObject.tag == "point")
 		{
 			Debug.Log("change");
 			isPoint = false;
 			if (isdenkiman == false)
 			{
+				CameraControllerScript.priority += 1;
+                camera.Priority = CameraControllerScript.priority;
 				copydenkiman = Instantiate(prehabdenkiman, muzzle2.position, transform.rotation) as GameObject;
 				isdenkiman = true;
 				gameObject.GetComponent<TransformScript>().enabled = false;

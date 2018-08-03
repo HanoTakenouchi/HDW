@@ -11,6 +11,7 @@ TagManager:
   - doramukan
   - Point1
   - Fire
+  - Box
   layers:
   - Default
   - TransparentFX

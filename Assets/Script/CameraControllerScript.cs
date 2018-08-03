@@ -8,6 +8,8 @@ public class CameraControllerScript : MonoBehaviour
 
 	public CinemachineVirtualCamera camera;
 
+	public static int priority = 1;
+    
 	//public BoxCollider Box1;
 	//public BoxCollider Box2;
 	//public BoxCollider Box3;
@@ -29,7 +31,8 @@ public class CameraControllerScript : MonoBehaviour
 	{
 		if (collider.gameObject.tag == "Player")
 		{
-			camera.Priority += 1;
+			priority += 1;
+			camera.Priority = priority;
 
 		}      
 	}

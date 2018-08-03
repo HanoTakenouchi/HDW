@@ -7,8 +7,11 @@ public class EnemyScript : MonoBehaviour
 {
 	NavMeshAgent agent;
 	public Transform target;
+	public GameObject Robo;
+	public GameObject bullet;
+	public GameObject muzzle;
+	public GameObject Groove;
 
- 
 	// Use this for initialization
 	void Start()
 	{
@@ -18,7 +21,7 @@ public class EnemyScript : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		
+
 	}
 
 	public void OnTriggerEnter(Collider collider)
@@ -27,32 +30,29 @@ public class EnemyScript : MonoBehaviour
 		{
 
 			agent.SetDestination(target.position);
+
+			Groove.GetComponent<SpriteRenderer>().color = Color.red;
+
+			agent.SetDestination(target.position);
+
+			GameObject bullets = Instantiate(bullet) as GameObject;
+
+			Vector3 force = Robo.gameObject.transform.position;
+
+			bullets.GetComponent<Rigidbody>().AddForce(force);
+
+			bullets.transform.position = muzzle.transform.position;
 		}
 
-		if (collider.gameObject.tag == "Doramukan")
-           {
-               Destroy(this.gameObject);
-           }
-    }
-  
+	}
+
+	public void OnCollisionEnter(Collision collision)
+	{
+		if (collision.gameObject.tag == "doramukan")
+		{
+			Destroy(this.gameObject);
+		}
+
+	}
+
 }
-
-
-	//private void OnTriggerStay(Collider collider)
-	//{
-	//	if (collider.gameObject.tag == "Player")
-	//	{
-	//		Groove.GetComponent<SpriteRenderer>().color = Color.red;
-
-	//		agent.SetDestination(target.position);
-
-	//		GameObject bullets = Instantiate(bullet) as GameObject;
-
-	//		Vector3 force = Robo.gameObject.transform.position;
-
-	//		bullets.GetComponent<Rigidbody>().AddForce(force);
-
-	//		bullets.transform.position = muzzle.position;
-	//	}
-	//}
-
