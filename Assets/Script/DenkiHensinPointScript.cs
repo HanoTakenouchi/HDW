@@ -44,7 +44,7 @@ public class DenkiHensinPointScript : MonoBehaviour {
             }
             if (flag9)
             {
-				if (Input.GetMouseButtonDown(1)) 
+				if (Input.GetKey(KeyCode.E))
                 {
                     Sousa4GroupAnimation.gameObject.SetActive(false);
                     flag9 = false;

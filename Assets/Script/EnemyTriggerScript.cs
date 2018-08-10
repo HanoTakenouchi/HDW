@@ -2,48 +2,60 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Animations;
 
-public class EnemyTriggerScript : MonoBehaviour {
+public class EnemyTriggerScript : MonoBehaviour
+{
 
-	NavMeshAgent agent;
-    public Transform target;
-    public GameObject Robo;
-    public GameObject bullet;
-    public GameObject muzzle;
-    public GameObject Groove;
+	public GameObject Robo;
+	public Transform target;
+	public GameObject bullet;
+	public GameObject muzzle;
+	public GameObject Groove;
+	public Animator EnemyAnimator;
+	public NavMeshAgent agent;
 
 
 	// Use this for initialization
-	void Start () 
+	void Start()
 	{
-		agent = GetComponent<NavMeshAgent>();
 	}
-	
+
 	// Update is called once per frame
-	void Update () 
+	void Update()
 	{
-		
+
 	}
 
 	public void OnTriggerEnter(Collider collider)
-    {
-        if (collider.gameObject.tag == "Player")
-        {
+	{
+		if (collider.gameObject.tag == "Player")
+		{
+			agent.SetDestination(target.position);
 
-            agent.SetDestination(target.position);
+			EnemyAnimator.SetInteger("AnimationInt", 1);
 
-            Groove.GetComponent<SpriteRenderer>().color = Color.red;
+			Groove.GetComponent<SpriteRenderer>().color = Color.red;
 
-            agent.SetDestination(target.position);
+			GameObject bullets = Instantiate(bullet) as GameObject;
 
-            GameObject bullets = Instantiate(bullet) as GameObject;
+			Vector3 force = Robo.gameObject.transform.position;
 
-            Vector3 force = Robo.gameObject.transform.position;
+			bullets.GetComponent<Rigidbody>().AddForce(force);
 
-            bullets.GetComponent<Rigidbody>().AddForce(force);
+			bullets.transform.position = muzzle.transform.position;
 
-            bullets.transform.position = muzzle.transform.position;
-        }
+		}
 
-    }
+	}
+    
+	public void OnTriggerExit(Collider collider)
+	{
+		if (collider.gameObject.tag == "Player")
+		{
+			agent.Stop(); 
+			Groove.GetComponent<SpriteRenderer>().color = Color.yellow;
+		}
+
+	}
 }
