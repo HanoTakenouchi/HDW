@@ -12,6 +12,7 @@ TagManager:
   - Point1
   - Fire
   - Box
+  - bullet
   layers:
   - Default
   - TransparentFX

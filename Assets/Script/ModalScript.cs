@@ -11,7 +11,8 @@ public class ModalScript : MonoBehaviour
 	Animation Sousa2GroupAnimation;
 	Animation Sousa3GroupAnimation;
 	Animation Sousa6GroupAnimation;
-   
+
+	[SerializeField] GameObject obj;
 	public GameObject SousaGroup;
 	public GameObject Sousa2Group;
 	public GameObject Sousa3Group;

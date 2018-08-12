@@ -24,7 +24,7 @@ public class EnemyScript : MonoBehaviour
 			Destroy(this.gameObject);
 		}
 
-		if(GetComponent<Collider>().gameObject.tag == "bullet"){
+		if(collision.gameObject.tag == "bullet"){
 			Destroy(this.gameObject);
 		}
 

@@ -5,11 +5,11 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour {
 
    
-
+    
 	// Use this for initialization
 	void Start()
 	{
-		Invoke("DelayMethod", 0.1f);
+		Invoke("DelayMethod", 0.5f);
 	}
 	
 	// Update is called once per frame
