@@ -11,13 +11,13 @@ public class ModalScript : MonoBehaviour
 	Animation Sousa2GroupAnimation;
 	Animation Sousa3GroupAnimation;
 	Animation Sousa6GroupAnimation;
-
-	[SerializeField] GameObject obj;
+    
 	public GameObject SousaGroup;
 	public GameObject Sousa2Group;
 	public GameObject Sousa3Group;
 	public GameObject Sousa6Group;
 	public GameObject Robo;
+
 	private bool flag;
 	private bool flag2;
 	private bool flag3;
@@ -106,7 +106,7 @@ public class ModalScript : MonoBehaviour
             
 		}
         
-		if (Robo.gameObject.transform.position.x <= -9)
+		if (Robo.gameObject.transform.position.x >= 109)
         {
 			if (flag13)
             {

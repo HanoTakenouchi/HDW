@@ -23,7 +23,7 @@ public class MukiScript : MonoBehaviour
 			Quaternion rotation = Quaternion.LookRotation(target_dir);
             transform.rotation = Quaternion.Lerp(transform.rotation, rotation, Time.deltaTime * smooth);
 			//前方へ移動
-			transform.Translate(transform.forward * Time.deltaTime * run_speed);
+			transform.Translate(Vector3.forward * Time.deltaTime * run_speed);
 		}
 	}
 }

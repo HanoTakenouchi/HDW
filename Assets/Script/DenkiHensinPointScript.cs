@@ -42,7 +42,7 @@ public class DenkiHensinPointScript : MonoBehaviour {
                 flag8 = false;
                 flag9 = true;
             }
-            if (flag9)
+			if (flag9)
             {
 				if (Input.GetKey(KeyCode.E))
                 {

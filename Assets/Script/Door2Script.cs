@@ -20,7 +20,7 @@ public class Door2Script : MonoBehaviour {
     {
         if (collider.gameObject.tag == "Player")
         {
-			doors.transform.position = Vector3.Lerp(doors.gameObject.transform.position, new Vector3(-66.5891f, -1.3611f, -37.7f), Time.deltaTime);
+			doors.transform.position = Vector3.Lerp(doors.gameObject.transform.position, new Vector3(173.1891f,-1.3611f,-29.98645f), Time.deltaTime);
         }
     }
 
