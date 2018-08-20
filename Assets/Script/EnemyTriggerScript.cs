@@ -53,7 +53,7 @@ public class EnemyTriggerScript : MonoBehaviour
 	{
 		if (collider.gameObject.tag == "Player")
 		{
-			agent.Stop(); 
+			EnemyAnimator.SetInteger("AnimationInt", 0);
 			Groove.GetComponent<SpriteRenderer>().color = Color.yellow;
 		}
 

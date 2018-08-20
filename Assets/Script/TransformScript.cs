@@ -16,7 +16,7 @@ public class TransformScript : MonoBehaviour
 	{
 		if (Input.GetKey(KeyCode.D))
 		{
-			robo.gameObject.transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
+			robo.gameObject.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
 			//step = speed * Time.deltaTime;
 			//transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, 90f, 0), step);
 
@@ -24,15 +24,15 @@ public class TransformScript : MonoBehaviour
 
 		if (Input.GetKey(KeyCode.A))
 		{
-			robo.gameObject.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
+			robo.gameObject.transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
 		}
 
 		if (Input.GetKey(KeyCode.S))
 		{
-			robo.gameObject.transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
+			robo.gameObject.transform.position += new Vector3(0, 0, speed * Time.deltaTime);
 			if (Input.GetKey(KeyCode.W))
 			{
-				robo.gameObject.transform.position += new Vector3(0, 0, speed * Time.deltaTime);
+				robo.gameObject.transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
 			}
 
 		}

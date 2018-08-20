@@ -499,7 +499,7 @@ namespace UnityEditor.PostProcessing
             var e = Event.current;
 
             // Selection
-            if (e.type == EventType.MouseDown)
+			if (e.type == EventType.MouseDown)
             {
                 GUI.FocusControl(null);
                 m_SelectedCurve = null;
@@ -582,7 +582,7 @@ namespace UnityEditor.PostProcessing
             }
 
             // Delete selected key(s)
-            if (e.type == EventType.KeyDown && (e.keyCode == KeyCode.Delete || e.keyCode == KeyCode.Backspace))
+			if (e.type == EventType.KeyDown && (e.keyCode == KeyCode.Delete || e.keyCode == KeyCode.Backspace))
             {
                 if (m_SelectedKeyframeIndex != -1 && m_SelectedCurve != null)
                 {
