@@ -52,7 +52,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .3
+      - .4
       - 
       - Iris/normal
       isEmpty: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .3
+      - .4
       - 
       - Iris/sad
       isEmpty: 0
@@ -84,7 +84,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .3
+      - .4
       - 
       - Iris/kuti
       isEmpty: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .3
+      - .4
       - 
       - Iris/smail
       isEmpty: 0
@@ -116,7 +116,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .3
+      - .4
       - 
       - Iris/yami
       - 
@@ -141,7 +141,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .3
+      - .4
       - 
       - Iris/yamismail
       - 
@@ -166,7 +166,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .3
+      - .4
       - 
       - Iris/metozinormal
       - 
@@ -191,7 +191,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .3
+      - .4
       - 
       - Iris/matozismail
       - 
@@ -391,8 +391,8 @@ MonoBehaviour:
       strings:
       - "\u5DE6"
       - Character
-      - -250
-      - -130
+      - -300
+      - -100
       - 1
       isEmpty: 0
       isCommentOut: 0
@@ -403,7 +403,7 @@ MonoBehaviour:
       - "\u4E2D\u592E"
       - Character
       - 0
-      - -130
+      - -100
       - 3
       isEmpty: 0
       isCommentOut: 0
@@ -414,7 +414,7 @@ MonoBehaviour:
       - "\u53F3"
       - Character
       - 250
-      - -130
+      - -100
       - 2
       isEmpty: 0
       isCommentOut: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
       - "\u5DE6\u4E2D\u592E"
       - Character
       - -200
-      - -130
+      - -100
       - 4
       isEmpty: 0
       isCommentOut: 0
