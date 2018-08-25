@@ -110,8 +110,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a0e3724197496409faf2dd65cafeea54, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 345017a70298ee641b40c34118b2bbd9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7338c13e8f0b4173bd506c6aa80f0e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clicked: {fileID: 8300000, guid: 7a46640e5731d4717942f1cb08265ccb, type: 3}
-  highlited: {fileID: 8300000, guid: cafabeac9797e40fb9c1a6fd8ea0064b, type: 3}
+  clicked: {fileID: 8300000, guid: d1baf02b2e9cf4feeafcf776603f13bd, type: 3}
+  highlited: {fileID: 8300000, guid: d1baf02b2e9cf4feeafcf776603f13bd, type: 3}
   clickedPlayMode: 0
   highlitedPlayMode: 0
 --- !u!114 &11408032

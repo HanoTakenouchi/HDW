@@ -14,7 +14,7 @@ public class TransformScript : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetKey(KeyCode.D))
+		if (Input.GetKey(KeyCode.A))
 		{
 			robo.gameObject.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
 			//step = speed * Time.deltaTime;
@@ -22,19 +22,19 @@ public class TransformScript : MonoBehaviour
 
 		}
 
-		if (Input.GetKey(KeyCode.A))
+		if (Input.GetKey(KeyCode.D))
 		{
 			robo.gameObject.transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
 		}
 
-		if (Input.GetKey(KeyCode.S))
+		if (Input.GetKey(KeyCode.W))
 		{
 			robo.gameObject.transform.position += new Vector3(0, 0, speed * Time.deltaTime);
-			if (Input.GetKey(KeyCode.W))
-			{
-				robo.gameObject.transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
-			}
+		}
 
+		if (Input.GetKey(KeyCode.S))
+		{
+			robo.gameObject.transform.position += new Vector3(0, 0, -speed * Time.deltaTime);
 		}
 	}
 }

@@ -13,7 +13,7 @@ public class ScenarioStartScript : MonoBehaviour {
 	private void Awake()
 	{
 		Scenarioflag = true;
-		scenarioLabel = "1mae";
+		scenarioLabel = "Boss";
 	}
 
 	// Use this for initialization
