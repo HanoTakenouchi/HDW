@@ -9,6 +9,7 @@ public class ScenarioStartScript : MonoBehaviour {
     public AdvEngine engine;
 	private string scenarioLabel;
 	public static bool Scenarioflag;
+	public GameObject Robo;
 
 	private void Awake()
 	{
@@ -17,13 +18,25 @@ public class ScenarioStartScript : MonoBehaviour {
 	}
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		StartCoroutine(CoTalk());
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Update () 
+	{
+		if (Robo.transform.position.x == -121)
+		{
+			scenarioLabel = "1temae";
+			StartCoroutine(CoTalk());
+		}
+
+		if (Robo.transform.position.x == -221)
+		{
+			scenarioLabel = "Bossmae";
+            StartCoroutine(CoTalk());
+		}
 	}
 
 	IEnumerator CoTalk()
