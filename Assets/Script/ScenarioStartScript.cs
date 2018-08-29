@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Utage;
+using UnityEngine.SceneManagement;
 
 public class ScenarioStartScript : MonoBehaviour {
 
@@ -29,13 +30,24 @@ public class ScenarioStartScript : MonoBehaviour {
 		if (Robo.transform.position.x == -121)
 		{
 			scenarioLabel = "1temae";
+			Scenarioflag = true;
 			StartCoroutine(CoTalk());
 		}
 
-		if (Robo.transform.position.x == -221)
+		if (Robo.transform.position.x == -220)
 		{
 			scenarioLabel = "Bossmae";
+			Scenarioflag = true;
             StartCoroutine(CoTalk());
+		}
+
+		if(Robo.transform.position.x == -240)
+		{
+			scenarioLabel = "Boss";
+            Scenarioflag = true;
+			StartCoroutine(CoTalk());
+			SceneManager.LoadScene("Title");
+
 		}
 	}
 

@@ -441,9 +441,24 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - "\u90FD\u4F1A"
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - .4
+      - 
+      - tokyoIMGL3294
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/ElectronScenario/ElectronScenario.xls:Texture
     type: 1
-    textLength: 112
+    textLength: 131
     headerRow: 0
   - rows:
     - rowIndex: 0
